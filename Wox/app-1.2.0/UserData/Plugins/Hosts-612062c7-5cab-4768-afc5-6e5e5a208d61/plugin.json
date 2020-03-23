@@ -1,0 +1,12 @@
+{
+    "ID":"3c264c40a64311e4892e005056c00008",
+    "ActionKeyword":"hosts",
+    "Name":"Hosts",
+    "Description":"Edit hosts file",
+    "Author":"icuy",
+    "Version":"1.0.0",
+    "Language":"python",
+    "Website":"http://0oor.com",
+    "IcoPath":"Images\\hosts.png",
+    "ExecuteFileName":"hosts.py"
+}

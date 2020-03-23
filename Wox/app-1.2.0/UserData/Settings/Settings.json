@@ -1,0 +1,254 @@
+{
+  "Hotkey": "Alt + Space",
+  "Language": "en",
+  "Theme": "Dark",
+  "QueryBoxFont": "Microsoft Sans Serif",
+  "QueryBoxFontStyle": null,
+  "QueryBoxFontWeight": null,
+  "QueryBoxFontStretch": null,
+  "ResultFont": "Microsoft Sans Serif",
+  "ResultFontStyle": null,
+  "ResultFontWeight": null,
+  "ResultFontStretch": null,
+  "AutoUpdates": false,
+  "WindowLeft": 759.15094339622647,
+  "WindowTop": 314.5,
+  "MaxResultsToShow": 6,
+  "ActivateTimes": 0,
+  "CustomPluginHotkeys": [],
+  "Opacity": 1.0,
+  "OpacityMode": 0,
+  "DontPromptUpdateMsg": false,
+  "EnableUpdateLog": false,
+  "StartWoxOnSystemStartup": true,
+  "HideOnStartup": false,
+  "HideNotifyIcon": false,
+  "LeaveCmdOpen": false,
+  "HideWhenDeactive": false,
+  "RememberLastLaunchLocation": false,
+  "IgnoreHotkeysOnFullscreen": false,
+  "Proxy": {
+    "Enabled": false,
+    "Server": null,
+    "Port": 0,
+    "UserName": null,
+    "Password": null
+  },
+  "LastQueryMode": "Selected",
+  "PluginSettings": {
+    "PythonDirectory": null,
+    "Plugins": {
+      "CEA0FDFC6D3B4085823D60DC76F28844": {
+        "ID": "CEA0FDFC6D3B4085823D60DC76F28844",
+        "Name": "Hello World CSharp",
+        "ActionKeywords": [
+          "hc"
+        ],
+        "Disabled": false
+      },
+      "2f4e384e-76ce-45c3-aea2-b16f5e5c328f": {
+        "ID": "2f4e384e-76ce-45c3-aea2-b16f5e5c328f",
+        "Name": "Hello World Python",
+        "ActionKeywords": [
+          "h"
+        ],
+        "Disabled": false
+      },
+      "0ECADE17459B49F587BF81DC3A125110": {
+        "ID": "0ECADE17459B49F587BF81DC3A125110",
+        "Name": "Browser Bookmarks",
+        "ActionKeywords": [
+          "b"
+        ],
+        "Disabled": false
+      },
+      "CEA0FDFC6D3B4085823D60DC76F28855": {
+        "ID": "CEA0FDFC6D3B4085823D60DC76F28855",
+        "Name": "Calculator",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Disabled": false
+      },
+      "9B36CE6181FC47FBB597AA2C29CD9B0A": {
+        "ID": "9B36CE6181FC47FBB597AA2C29CD9B0A",
+        "Name": "Colors",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Disabled": false
+      },
+      "209621585B9B4D81813913C507C058C6": {
+        "ID": "209621585B9B4D81813913C507C058C6",
+        "Name": "Control Panel",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Disabled": false
+      },
+      "D2D2C23B084D411DB66FE0C79D6C2A6E": {
+        "ID": "D2D2C23B084D411DB66FE0C79D6C2A6E",
+        "Name": "Everything",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Disabled": false
+      },
+      "B4D3B69656E14D44865C8D818EAE47C4": {
+        "ID": "B4D3B69656E14D44865C8D818EAE47C4",
+        "Name": "Folder",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Disabled": false
+      },
+      "6A122269676E40EB86EB543B945932B9": {
+        "ID": "6A122269676E40EB86EB543B945932B9",
+        "Name": "Plugin Indicator",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Disabled": false
+      },
+      "D2D2C23B084D422DB66FE0C79D6C2A6A": {
+        "ID": "D2D2C23B084D422DB66FE0C79D6C2A6A",
+        "Name": "Wox Plugin Management",
+        "ActionKeywords": [
+          "wpm"
+        ],
+        "Disabled": false
+      },
+      "791FC278BA414111B8D1886DFE447410": {
+        "ID": "791FC278BA414111B8D1886DFE447410",
+        "Name": "Program",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Disabled": false
+      },
+      "D409510CD0D2481F853690A07E6DC426": {
+        "ID": "D409510CD0D2481F853690A07E6DC426",
+        "Name": "Shell",
+        "ActionKeywords": [
+          ">"
+        ],
+        "Disabled": false
+      },
+      "CEA08895D2544B019B2E9C5009600DF4": {
+        "ID": "CEA08895D2544B019B2E9C5009600DF4",
+        "Name": "System Commands",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Disabled": false
+      },
+      "0308FD86DE0A4DEE8D62B9B535370992": {
+        "ID": "0308FD86DE0A4DEE8D62B9B535370992",
+        "Name": "URL",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Disabled": false
+      },
+      "565B73353DBF4806919830B9202EE3BF": {
+        "ID": "565B73353DBF4806919830B9202EE3BF",
+        "Name": "Web Searches",
+        "ActionKeywords": [
+          "g",
+          "wiki",
+          "findicon",
+          "facebook",
+          "twitter",
+          "maps",
+          "translate",
+          "duckduckgo",
+          "github",
+          "gist",
+          "gmail",
+          "drive",
+          "wolframalpha",
+          "stackoverflow",
+          "lucky",
+          "image",
+          "youtube",
+          "bing",
+          "yahoo",
+          "bd"
+        ],
+        "Disabled": false
+      },
+      "ca8c0c3dea2e4f75833482489587d33d": {
+        "ID": "ca8c0c3dea2e4f75833482489587d33d",
+        "Name": "Simple Web Search",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Disabled": false
+      },
+      "C3406B5C22F04984B0183DAE897CAB3F": {
+        "ID": "C3406B5C22F04984B0183DAE897CAB3F",
+        "Name": "Dictionary",
+        "ActionKeywords": [
+          "d"
+        ],
+        "Disabled": false
+      },
+      "BB36CF20434311E6BDF40800200C9A66": {
+        "ID": "BB36CF20434311E6BDF40800200C9A66",
+        "Name": "Giphy",
+        "ActionKeywords": [
+          "/giphy"
+        ],
+        "Disabled": false
+      },
+      "3c264c40a64311e4892e005056c00008": {
+        "ID": "3c264c40a64311e4892e005056c00008",
+        "Name": "Hosts",
+        "ActionKeywords": [
+          "hosts"
+        ],
+        "Disabled": false
+      },
+      "2112A2EB76524F1C8D91A71B0D219CDF": {
+        "ID": "2112A2EB76524F1C8D91A71B0D219CDF",
+        "Name": "Stack Overflow",
+        "ActionKeywords": [
+          "so"
+        ],
+        "Disabled": false
+      },
+      "D44B2D14487545FCA5825DC35A7329F5": {
+        "ID": "D44B2D14487545FCA5825DC35A7329F5",
+        "Name": "Steam",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Disabled": false
+      },
+      "5C0BFEC0DF7011E695980800200C9A55": {
+        "ID": "5C0BFEC0DF7011E695980800200C9A55",
+        "Name": "Weather.Open",
+        "ActionKeywords": [
+          "forecast"
+        ],
+        "Disabled": false
+      },
+      "SY91U1N7H9D0X1DTZ8IOP4YV43KT7C5M": {
+        "ID": "SY91U1N7H9D0X1DTZ8IOP4YV43KT7C5M",
+        "Name": "Wox.SpotifyPremium",
+        "ActionKeywords": [
+          "sp"
+        ],
+        "Disabled": false
+      },
+      "6C0BF2C0DF7011E695980800200C9A67": {
+        "ID": "6C0BF2C0DF7011E695980800200C9A67",
+        "Name": "YouTubeQuery",
+        "ActionKeywords": [
+          "yt"
+        ],
+        "Disabled": false
+      }
+    }
+  }
+}

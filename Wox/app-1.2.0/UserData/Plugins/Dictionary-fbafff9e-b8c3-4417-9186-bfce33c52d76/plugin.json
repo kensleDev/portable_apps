@@ -1,0 +1,12 @@
+{
+    "ID":"C3406B5C22F04984B0183DAE897CAB3F",
+    "ActionKeyword":"d",
+    "Name":"Dictionary",
+    "Description":"English dictionary, word correction and synonym.",
+    "Author":"Harry Yu",
+    "Version":"1.0.1",
+    "Language":"csharp",
+    "Website":"https://github.com/harrynull/WoxDictionary",
+    "IcoPath":"Images\\plugin.png",
+    "ExecuteFileName":"Dictionary.dll"
+}

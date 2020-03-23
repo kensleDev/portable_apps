@@ -1,0 +1,723 @@
+2020-03-23 00:01:16.6006|INFO|App.OnStartup|Begin Wox startup ----------------------------------------------------
+2020-03-23 00:01:16.6216|INFO|App.OnStartup|Runtime info:
+Wox version: 1.2.0
+OS Version: Microsoft Windows NT 10.0.18363.0
+IntPtr Length: 8
+x64: True
+2020-03-23 00:01:16.6846|INFO|ImageLoader.Initialize|Preload images cost <23ms>
+2020-03-23 00:01:16.6886|INFO|ImageLoader.Initialize|Number of preload images is <0>
+2020-03-23 00:01:16.7126|INFO|Wox.Infrastructure.Alphabet.Initialize|Preload pinyin cache <33ms>
+2020-03-23 00:01:16.7166|INFO|Wox.Infrastructure.Alphabet.Initialize|Number of preload pinyin combination<0>
+2020-03-23 00:01:17.2206|INFO|Wox.Plugin.Program.Main|Preload programs cost <11ms>
+2020-03-23 00:01:17.2206|INFO|Wox.Plugin.Program.Main|Number of preload win32 programs <57>
+2020-03-23 00:01:17.2206|INFO|Wox.Plugin.Program.Main|Number of preload uwps <4>
+2020-03-23 00:01:17.5886|ERROR|UWP.LogoPathFromUri| <Microsoft.WindowsCalculator_8wekyb3d8bbwe!App> can't find logo uri for <Assets\CalculatorAppList.png>, Package location <C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.1904.31.0_x64__8wekyb3d8bbwe>.
+2020-03-23 00:01:17.6106|ERROR|UWP.ResourceFromPri|-------------------------- Begin exception --------------------------
+2020-03-23 00:01:17.6106|ERROR|UWP.ResourceFromPri|Load pri failed <@{Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe? ms-resource:///resources/LensSDK/Resources/AppTitle}> with HResult <2147957527> and location <C:\Program Files\WindowsApps\Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe>.
+2020-03-23 00:01:17.6106|ERROR|UWP.ResourceFromPri|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:01:17.6236|ERROR|UWP.ResourceFromPri|Exception message:
+ <Unspecified error
+
+'Microsoft Corporation' violates pattern constraint of '\bms-resource:.{1,256}'.
+>
+2020-03-23 00:01:17.6236|ERROR|UWP.ResourceFromPri|Exception stack trace:
+ <>
+2020-03-23 00:01:17.6236|ERROR|UWP.ResourceFromPri|Exception source:
+ <>
+2020-03-23 00:01:17.6236|ERROR|UWP.ResourceFromPri|Exception target site:
+ <>
+2020-03-23 00:01:17.6416|ERROR|UWP.ResourceFromPri|Exception HResult:
+ <-2147009769>
+2020-03-23 00:01:17.6416|ERROR|UWP.ResourceFromPri|-------------------------- End exception --------------------------
+2020-03-23 00:01:17.6596|ERROR|UWP.LogoPathFromUri| <Microsoft.ScreenSketch_8wekyb3d8bbwe!App> can't find logo uri for <Assets\ScreenSketchSquare44x44Logo.png>, Package location <C:\Program Files\WindowsApps\Microsoft.ScreenSketch_10.1901.10521.0_x64__8wekyb3d8bbwe>.
+2020-03-23 00:01:17.6596|ERROR|UWP.ResourceFromPri|-------------------------- Begin exception --------------------------
+2020-03-23 00:01:17.6706|ERROR|UWP.ResourceFromPri|Load pri failed <@{Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe? ms-resource:///resources/LensSDK/Resources/AppTitle}> with HResult <2147957527> and location <C:\Program Files\WindowsApps\Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe>.
+2020-03-23 00:01:17.6706|ERROR|UWP.ResourceFromPri|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:01:17.6706|ERROR|UWP.ResourceFromPri|Exception message:
+ <NamedResource Not Found. (Exception from HRESULT: 0x80073B17)>
+2020-03-23 00:01:17.6866|ERROR|UWP.ResourceFromPri|Exception stack trace:
+ <>
+2020-03-23 00:01:17.6866|ERROR|UWP.ResourceFromPri|Exception source:
+ <>
+2020-03-23 00:01:17.6866|ERROR|UWP.ResourceFromPri|Exception target site:
+ <>
+2020-03-23 00:01:17.7026|ERROR|UWP.ResourceFromPri|Exception HResult:
+ <-2147009769>
+2020-03-23 00:01:17.7026|ERROR|UWP.ResourceFromPri|-------------------------- End exception --------------------------
+2020-03-23 00:01:17.9226|ERROR|UWP.LogoPathFromUri| <Microsoft.Windows.SecHealthUI_cw5n1h2txyewy!SecHealthUI> can't find logo uri for <Assets\Square44x44Logo.png>, Package location <C:\Windows\SystemApps\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy>.
+2020-03-23 00:01:18.5266|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 00:01:18.5356|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 00:01:18.5356|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:01:18.5516|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 00:01:18.5716|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 00:01:18.5816|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 00:01:18.5816|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 00:01:18.5966|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-23 00:01:18.5966|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 00:01:18.6146|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 00:01:18.6236|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 00:01:18.6236|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:01:18.6416|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Unspecified error
+
+'Microsoft Corporation' violates pattern constraint of '\bms-resource:.{1,256}'.
+>
+2020-03-23 00:01:18.6416|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 00:01:18.6606|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <>
+2020-03-23 00:01:18.6696|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 00:01:18.6696|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-23 00:01:18.6866|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 00:01:18.6866|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-23 00:01:18.7046|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\System Configuration.lnk> with HResult <-2147467259>
+2020-03-23 00:01:18.7046|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:01:18.7186|ERROR|Win32.LnkProgram|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 00:01:18.7186|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 00:01:18.7186|ERROR|Win32.LnkProgram|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 00:01:18.7386|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 00:01:18.7386|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-23 00:01:18.7526|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-23 00:01:18.7526|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-23 00:01:18.7656|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player.lnk> with HResult <-2147467259>
+2020-03-23 00:01:18.7656|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:01:18.7816|ERROR|Win32.LnkProgram|Exception message:
+ <Unspecified error
+
+'Microsoft Corporation' violates pattern constraint of '\bms-resource:.{1,256}'.
+>
+2020-03-23 00:01:18.7816|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 00:01:18.7956|ERROR|Win32.LnkProgram|Exception source:
+ <>
+2020-03-23 00:01:18.7956|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 00:01:18.8106|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-23 00:01:18.8106|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-23 00:01:18.8446|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 00:01:18.8446|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 00:01:18.8586|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:01:18.8586|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 00:01:18.8746|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 00:01:18.8746|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 00:01:18.8746|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 00:01:18.8966|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-23 00:01:18.8966|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 00:01:18.9096|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-23 00:01:18.9096|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk> with HResult <-2147467259>
+2020-03-23 00:01:18.9226|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:01:18.9226|ERROR|Win32.LnkProgram|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 00:01:18.9366|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 00:01:18.9366|ERROR|Win32.LnkProgram|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 00:01:18.9366|INFO|PluginManager.InitializePlugins|Total init cost for <Colors> is <14ms>
+2020-03-23 00:01:18.9366|INFO|PluginManager.InitializePlugins|Total init cost for <Hello World CSharp> is <14ms>
+2020-03-23 00:01:18.9366|INFO|PluginManager.InitializePlugins|Total init cost for <Calculator> is <54ms>
+2020-03-23 00:01:18.9366|INFO|PluginManager.InitializePlugins|Total init cost for <Folder> is <20ms>
+2020-03-23 00:01:18.9366|INFO|PluginManager.InitializePlugins|Total init cost for <Wox Plugin Management> is <17ms>
+2020-03-23 00:01:18.9366|INFO|PluginManager.InitializePlugins|Total init cost for <Shell> is <46ms>
+2020-03-23 00:01:18.9366|INFO|PluginManager.InitializePlugins|Total init cost for <Plugin Indicator> is <15ms>
+2020-03-23 00:01:18.9366|INFO|PluginManager.InitializePlugins|Total init cost for <Program> is <56ms>
+2020-03-23 00:01:18.9366|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 00:01:18.9586|INFO|PluginManager.InitializePlugins|Total init cost for <System Commands> is <18ms>
+2020-03-23 00:01:18.9696|INFO|PluginManager.InitializePlugins|Total init cost for <Everything> is <49ms>
+2020-03-23 00:01:18.9696|INFO|PluginManager.InitializePlugins|Total init cost for <Web Searches> is <42ms>
+2020-03-23 00:01:18.9866|INFO|PluginManager.InitializePlugins|Total init cost for <Hello World Python> is <0ms>
+2020-03-23 00:01:18.9696|INFO|PluginManager.InitializePlugins|Total init cost for <URL> is <21ms>
+2020-03-23 00:01:19.0216|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-23 00:01:19.0396|INFO|PluginManager.InitializePlugins|Total init cost for <Control Panel> is <111ms>
+2020-03-23 00:01:19.0576|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-23 00:01:19.0726|INFO|Wox.Plugin.Program.Main|Program index cost <1841ms>
+2020-03-23 00:01:20.2816|INFO|PluginManager.InitializePlugins|Total init cost for <Browser Bookmarks> is <1352ms>
+2020-03-23 00:01:20.2816|INFO|App.OnStartup|Dependencies Info:
+Python Path: pythonw.exe
+Everything SDK Path: C:\Portable\Wox\app-1.2.0\UserData\Settings\Plugins\Wox.Plugin.Everything\EverythingSDK\x64\Everything.dll
+2020-03-23 00:01:20.3126|INFO|App.OnStartup|End Wox startup ----------------------------------------------------  
+2020-03-23 00:01:20.3126|INFO|App.OnStartup|Startup cost <3865ms>
+2020-03-23 00:01:35.4806|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 00:01:35.4876|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 00:01:35.4876|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.IndexOutOfRangeException>
+2020-03-23 00:01:35.4996|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Index was outside the bounds of the array.>
+2020-03-23 00:01:35.4996|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.Plugin.Query.SplitSearch(Int32 index) in C:\Workbench\Git\Wox\Wox.Plugin\Query.cs:line 75>
+2020-03-23 00:01:35.5176|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin>
+2020-03-23 00:01:35.5176|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.String SplitSearch(Int32)>
+2020-03-23 00:01:35.5306|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2146233080>
+2020-03-23 00:01:35.5306|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 00:01:35.6726|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 00:01:35.6726|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 00:01:35.6856|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.IndexOutOfRangeException>
+2020-03-23 00:01:35.6856|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Index was outside the bounds of the array.>
+2020-03-23 00:01:35.6856|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.Plugin.Query.SplitSearch(Int32 index) in C:\Workbench\Git\Wox\Wox.Plugin\Query.cs:line 75>
+2020-03-23 00:01:35.7046|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin>
+2020-03-23 00:01:35.7046|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.String SplitSearch(Int32)>
+2020-03-23 00:01:35.7166|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2146233080>
+2020-03-23 00:01:35.7166|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 00:01:48.7787|INFO|App.OnStartup|Begin Wox startup ----------------------------------------------------
+2020-03-23 00:01:48.8027|INFO|App.OnStartup|Runtime info:
+Wox version: 1.2.0
+OS Version: Microsoft Windows NT 10.0.18363.0
+IntPtr Length: 8
+x64: True
+2020-03-23 00:01:48.8700|INFO|Wox.Infrastructure.Alphabet.Initialize|Preload pinyin cache <28ms>
+2020-03-23 00:01:48.8820|INFO|Wox.Infrastructure.Alphabet.Initialize|Number of preload pinyin combination<0>
+2020-03-23 00:01:49.0660|INFO|ImageLoader.Initialize|Preload images cost <225ms>
+2020-03-23 00:01:49.0660|INFO|ImageLoader.Initialize|Number of preload images is <33>
+2020-03-23 00:01:49.1750|INFO|Wox.Plugin.Program.Main|Preload programs cost <3ms>
+2020-03-23 00:01:49.1750|INFO|Wox.Plugin.Program.Main|Number of preload win32 programs <311>
+2020-03-23 00:01:49.1880|INFO|Wox.Plugin.Program.Main|Number of preload uwps <18>
+2020-03-23 00:01:49.5430|ERROR|UWP.LogoPathFromUri| <Microsoft.WindowsCalculator_8wekyb3d8bbwe!App> can't find logo uri for <Assets\CalculatorAppList.png>, Package location <C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.1904.31.0_x64__8wekyb3d8bbwe>.
+2020-03-23 00:01:49.5610|ERROR|UWP.ResourceFromPri|-------------------------- Begin exception --------------------------
+2020-03-23 00:01:49.5610|ERROR|UWP.ResourceFromPri|Load pri failed <@{Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe? ms-resource:///resources/LensSDK/Resources/AppTitle}> with HResult <2147957527> and location <C:\Program Files\WindowsApps\Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe>.
+2020-03-23 00:01:49.5760|ERROR|UWP.ResourceFromPri|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:01:49.5760|ERROR|UWP.ResourceFromPri|Exception message:
+ <Unspecified error
+
+'Microsoft Corporation' violates pattern constraint of '\bms-resource:.{1,256}'.
+>
+2020-03-23 00:01:49.5760|ERROR|UWP.ResourceFromPri|Exception stack trace:
+ <>
+2020-03-23 00:01:49.5990|ERROR|UWP.ResourceFromPri|Exception source:
+ <>
+2020-03-23 00:01:49.5990|ERROR|UWP.ResourceFromPri|Exception target site:
+ <>
+2020-03-23 00:01:49.5990|ERROR|UWP.LogoPathFromUri| <Microsoft.ScreenSketch_8wekyb3d8bbwe!App> can't find logo uri for <Assets\ScreenSketchSquare44x44Logo.png>, Package location <C:\Program Files\WindowsApps\Microsoft.ScreenSketch_10.1901.10521.0_x64__8wekyb3d8bbwe>.
+2020-03-23 00:01:49.6140|ERROR|UWP.ResourceFromPri|Exception HResult:
+ <-2147009769>
+2020-03-23 00:01:49.6320|ERROR|UWP.ResourceFromPri|-------------------------- End exception --------------------------
+2020-03-23 00:01:49.6470|ERROR|UWP.ResourceFromPri|-------------------------- Begin exception --------------------------
+2020-03-23 00:01:49.6570|ERROR|UWP.ResourceFromPri|Load pri failed <@{Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe? ms-resource:///resources/LensSDK/Resources/AppTitle}> with HResult <2147957527> and location <C:\Program Files\WindowsApps\Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe>.
+2020-03-23 00:01:49.6570|ERROR|UWP.ResourceFromPri|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:01:49.6760|ERROR|UWP.ResourceFromPri|Exception message:
+ <NamedResource Not Found. (Exception from HRESULT: 0x80073B17)>
+2020-03-23 00:01:49.6860|ERROR|UWP.ResourceFromPri|Exception stack trace:
+ <>
+2020-03-23 00:01:49.6860|ERROR|UWP.ResourceFromPri|Exception source:
+ <>
+2020-03-23 00:01:49.7020|ERROR|UWP.ResourceFromPri|Exception target site:
+ <>
+2020-03-23 00:01:49.7020|ERROR|UWP.ResourceFromPri|Exception HResult:
+ <-2147009769>
+2020-03-23 00:01:49.7180|ERROR|UWP.ResourceFromPri|-------------------------- End exception --------------------------
+2020-03-23 00:01:49.8850|ERROR|UWP.LogoPathFromUri| <Microsoft.Windows.SecHealthUI_cw5n1h2txyewy!SecHealthUI> can't find logo uri for <Assets\Square44x44Logo.png>, Package location <C:\Windows\SystemApps\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy>.
+2020-03-23 00:01:50.4670|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 00:01:50.4830|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 00:01:50.5020|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:01:50.5150|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 00:01:50.5320|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 00:01:50.5560|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 00:01:50.5680|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 00:01:50.5790|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-23 00:01:50.5790|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 00:01:50.6040|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 00:01:50.6140|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 00:01:50.6140|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:01:50.6300|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 00:01:50.6390|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 00:01:50.6390|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 00:01:50.6580|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 00:01:50.6580|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-23 00:01:50.6740|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 00:01:50.6740|INFO|PluginManager.InitializePlugins|Total init cost for <Hello World CSharp> is <1ms>
+2020-03-23 00:01:50.6740|INFO|PluginManager.InitializePlugins|Total init cost for <Colors> is <1ms>
+2020-03-23 00:01:50.6740|INFO|PluginManager.InitializePlugins|Total init cost for <Folder> is <3ms>
+2020-03-23 00:01:50.6740|INFO|PluginManager.InitializePlugins|Total init cost for <Calculator> is <7ms>
+2020-03-23 00:01:50.6740|INFO|PluginManager.InitializePlugins|Total init cost for <Plugin Indicator> is <0ms>
+2020-03-23 00:01:50.6740|INFO|PluginManager.InitializePlugins|Total init cost for <Everything> is <9ms>
+2020-03-23 00:01:50.6900|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-23 00:01:50.7010|INFO|PluginManager.InitializePlugins|Total init cost for <Wox Plugin Management> is <0ms>
+2020-03-23 00:01:50.7010|INFO|PluginManager.InitializePlugins|Total init cost for <Program> is <29ms>
+2020-03-23 00:01:50.7200|INFO|PluginManager.InitializePlugins|Total init cost for <Shell> is <8ms>
+2020-03-23 00:01:50.7200|INFO|PluginManager.InitializePlugins|Total init cost for <System Commands> is <1ms>
+2020-03-23 00:01:50.7200|INFO|PluginManager.InitializePlugins|Total init cost for <URL> is <2ms>
+2020-03-23 00:01:50.7390|INFO|PluginManager.InitializePlugins|Total init cost for <Web Searches> is <10ms>
+2020-03-23 00:01:50.7480|INFO|PluginManager.InitializePlugins|Total init cost for <Simple Web Search> is <1ms>
+2020-03-23 00:01:50.7480|INFO|PluginManager.InitializePlugins|Total init cost for <Hello World Python> is <0ms>
+2020-03-23 00:01:50.7480|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\System Configuration.lnk> with HResult <-2147467259>
+2020-03-23 00:01:50.7840|INFO|PluginManager.InitializePlugins|Total init cost for <Control Panel> is <111ms>
+2020-03-23 00:01:50.8320|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:01:50.8480|ERROR|Win32.LnkProgram|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 00:01:50.8480|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 00:01:50.8640|ERROR|Win32.LnkProgram|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 00:01:50.8640|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 00:01:50.8800|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-23 00:01:50.8800|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-23 00:01:50.8960|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-23 00:01:50.9050|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player.lnk> with HResult <-2147467259>
+2020-03-23 00:01:50.9050|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:01:50.9300|ERROR|Win32.LnkProgram|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 00:01:50.9390|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 00:01:50.9390|ERROR|Win32.LnkProgram|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 00:01:50.9560|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 00:01:50.9560|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-23 00:01:50.9730|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-23 00:01:50.9930|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 00:01:51.0010|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 00:01:51.0010|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:01:51.0160|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 00:01:51.0160|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 00:01:51.0320|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 00:01:51.0320|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 00:01:51.0491|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-23 00:01:51.0620|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 00:01:51.0620|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-23 00:01:51.0790|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk> with HResult <-2147467259>
+2020-03-23 00:01:51.0790|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:01:51.0960|ERROR|Win32.LnkProgram|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 00:01:51.0960|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 00:01:51.1130|ERROR|Win32.LnkProgram|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 00:01:51.1130|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 00:01:51.1290|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-23 00:01:51.1290|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-23 00:01:51.1500|INFO|Wox.Plugin.Program.Main|Program index cost <1955ms>
+2020-03-23 00:01:51.1960|INFO|PluginManager.InitializePlugins|Total init cost for <Browser Bookmarks> is <523ms>
+2020-03-23 00:01:51.2050|INFO|App.OnStartup|Dependencies Info:
+Python Path: pythonw.exe
+Everything SDK Path: C:\Portable\Wox\app-1.2.0\UserData\Settings\Plugins\Wox.Plugin.Everything\EverythingSDK\x64\Everything.dll
+2020-03-23 00:01:51.2280|INFO|App.OnStartup|End Wox startup ----------------------------------------------------  
+2020-03-23 00:01:51.2360|INFO|App.OnStartup|Startup cost <2530ms>
+2020-03-23 00:03:20.5428|INFO|App.OnStartup|Begin Wox startup ----------------------------------------------------
+2020-03-23 00:03:20.5698|INFO|App.OnStartup|Runtime info:
+Wox version: 1.2.0
+OS Version: Microsoft Windows NT 10.0.18363.0
+IntPtr Length: 8
+x64: True
+2020-03-23 00:03:20.6388|INFO|Wox.Infrastructure.Alphabet.Initialize|Preload pinyin cache <27ms>
+2020-03-23 00:03:20.6388|INFO|Wox.Infrastructure.Alphabet.Initialize|Number of preload pinyin combination<0>
+2020-03-23 00:03:20.8348|INFO|ImageLoader.Initialize|Preload images cost <225ms>
+2020-03-23 00:03:20.8438|INFO|ImageLoader.Initialize|Number of preload images is <33>
+2020-03-23 00:03:20.9128|ERROR|PluginConfig.GetPluginMetadata|Didn't find config file <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Chocolatey-9aa1413a-ba5f-480f-9728-ed5b7b6c3286\plugin.json>
+2020-03-23 00:03:20.9798|INFO|Wox.Plugin.Program.Main|Preload programs cost <3ms>
+2020-03-23 00:03:20.9878|INFO|Wox.Plugin.Program.Main|Number of preload win32 programs <311>
+2020-03-23 00:03:20.9878|INFO|Wox.Plugin.Program.Main|Number of preload uwps <18>
+2020-03-23 00:03:21.3428|ERROR|UWP.LogoPathFromUri| <Microsoft.WindowsCalculator_8wekyb3d8bbwe!App> can't find logo uri for <Assets\CalculatorAppList.png>, Package location <C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.1904.31.0_x64__8wekyb3d8bbwe>.
+2020-03-23 00:03:21.3778|ERROR|UWP.ResourceFromPri|-------------------------- Begin exception --------------------------
+2020-03-23 00:03:21.3778|ERROR|UWP.ResourceFromPri|Load pri failed <@{Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe? ms-resource:///resources/LensSDK/Resources/AppTitle}> with HResult <2147957527> and location <C:\Program Files\WindowsApps\Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe>.
+2020-03-23 00:03:21.3968|ERROR|UWP.ResourceFromPri|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:03:21.4058|ERROR|UWP.ResourceFromPri|Exception message:
+ <Unspecified error
+
+'Microsoft Corporation' violates pattern constraint of '\bms-resource:.{1,256}'.
+>
+2020-03-23 00:03:21.4058|ERROR|UWP.LogoPathFromUri| <Microsoft.ScreenSketch_8wekyb3d8bbwe!App> can't find logo uri for <Assets\ScreenSketchSquare44x44Logo.png>, Package location <C:\Program Files\WindowsApps\Microsoft.ScreenSketch_10.1901.10521.0_x64__8wekyb3d8bbwe>.
+2020-03-23 00:03:21.4058|ERROR|UWP.ResourceFromPri|Exception stack trace:
+ <>
+2020-03-23 00:03:21.4318|ERROR|UWP.ResourceFromPri|Exception source:
+ <>
+2020-03-23 00:03:21.4408|ERROR|UWP.ResourceFromPri|Exception target site:
+ <>
+2020-03-23 00:03:21.4538|ERROR|UWP.ResourceFromPri|Exception HResult:
+ <-2147009769>
+2020-03-23 00:03:21.4538|ERROR|UWP.ResourceFromPri|-------------------------- End exception --------------------------
+2020-03-23 00:03:21.4828|ERROR|UWP.ResourceFromPri|-------------------------- Begin exception --------------------------
+2020-03-23 00:03:21.4828|ERROR|UWP.ResourceFromPri|Load pri failed <@{Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe? ms-resource:///resources/LensSDK/Resources/AppTitle}> with HResult <2147957527> and location <C:\Program Files\WindowsApps\Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe>.
+2020-03-23 00:03:21.5058|ERROR|UWP.ResourceFromPri|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:03:21.5178|ERROR|UWP.ResourceFromPri|Exception message:
+ <NamedResource Not Found. (Exception from HRESULT: 0x80073B17)>
+2020-03-23 00:03:21.5298|ERROR|UWP.ResourceFromPri|Exception stack trace:
+ <>
+2020-03-23 00:03:21.5298|ERROR|UWP.ResourceFromPri|Exception source:
+ <>
+2020-03-23 00:03:21.5478|ERROR|UWP.ResourceFromPri|Exception target site:
+ <>
+2020-03-23 00:03:21.5478|ERROR|UWP.ResourceFromPri|Exception HResult:
+ <-2147009769>
+2020-03-23 00:03:21.5688|ERROR|UWP.ResourceFromPri|-------------------------- End exception --------------------------
+2020-03-23 00:03:21.7038|ERROR|UWP.LogoPathFromUri| <Microsoft.Windows.SecHealthUI_cw5n1h2txyewy!SecHealthUI> can't find logo uri for <Assets\Square44x44Logo.png>, Package location <C:\Windows\SystemApps\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy>.
+2020-03-23 00:03:22.2778|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 00:03:22.2948|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 00:03:22.3168|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:03:22.3328|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 00:03:22.3498|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 00:03:22.3648|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 00:03:22.3788|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 00:03:22.3928|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-23 00:03:22.4058|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 00:03:22.4058|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 00:03:22.4328|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 00:03:22.4458|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:03:22.4588|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 00:03:22.4688|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 00:03:22.4688|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 00:03:22.4888|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 00:03:22.5008|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-23 00:03:22.5008|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 00:03:22.5228|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-23 00:03:22.5338|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\System Configuration.lnk> with HResult <-2147467259>
+2020-03-23 00:03:22.5338|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:03:22.5548|ERROR|Win32.LnkProgram|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 00:03:22.5648|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 00:03:22.5648|ERROR|Win32.LnkProgram|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 00:03:22.5868|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 00:03:22.5948|INFO|PluginManager.InitializePlugins|Total init cost for <URL> is <3ms>
+2020-03-23 00:03:22.5948|INFO|PluginManager.InitializePlugins|Total init cost for <Giphy> is <16ms>
+2020-03-23 00:03:22.5948|INFO|PluginManager.InitializePlugins|Total init cost for <Wox Plugin Management> is <1ms>
+2020-03-23 00:03:22.5948|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-23 00:03:22.5948|INFO|PluginManager.InitializePlugins|Total init cost for <Shell> is <7ms>
+2020-03-23 00:03:22.5948|INFO|PluginManager.InitializePlugins|Total init cost for <Calculator> is <7ms>
+2020-03-23 00:03:22.5948|INFO|PluginManager.InitializePlugins|Total init cost for <Folder> is <4ms>
+2020-03-23 00:03:22.6158|INFO|PluginManager.InitializePlugins|Total init cost for <Web Searches> is <12ms>
+2020-03-23 00:03:22.5948|INFO|PluginManager.InitializePlugins|Total init cost for <Hello World CSharp> is <2ms>
+2020-03-23 00:03:22.6318|INFO|PluginManager.InitializePlugins|Total init cost for <Simple Web Search> is <1ms>
+2020-03-23 00:03:22.6418|INFO|PluginManager.InitializePlugins|Total init cost for <Stack Overflow> is <74ms>
+2020-03-23 00:03:22.6418|INFO|PluginManager.InitializePlugins|Total init cost for <Program> is <34ms>
+2020-03-23 00:03:22.6418|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-23 00:03:22.6648|INFO|PluginManager.InitializePlugins|Total init cost for <System Commands> is <1ms>
+2020-03-23 00:03:22.6758|INFO|PluginManager.InitializePlugins|Total init cost for <Colors> is <1ms>
+2020-03-23 00:03:22.6858|INFO|PluginManager.InitializePlugins|Total init cost for <Plugin Indicator> is <1ms>
+2020-03-23 00:03:22.6858|INFO|PluginManager.InitializePlugins|Total init cost for <Control Panel> is <112ms>
+2020-03-23 00:03:22.7298|INFO|PluginManager.InitializePlugins|Total init cost for <Weather.Open> is <19ms>
+2020-03-23 00:03:22.7528|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-23 00:03:22.7658|INFO|PluginManager.InitializePlugins|Total init cost for <Hosts> is <0ms>
+2020-03-23 00:03:22.7658|INFO|PluginManager.InitializePlugins|Total init cost for <YouTubeQuery> is <43ms>
+2020-03-23 00:03:22.7878|INFO|PluginManager.InitializePlugins|Total init cost for <Everything> is <12ms>
+2020-03-23 00:03:22.8238|INFO|PluginManager.InitializePlugins|Total init cost for <Wox.SpotifyPremium> is <53ms>
+2020-03-23 00:03:22.8328|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player.lnk> with HResult <-2147467259>
+2020-03-23 00:03:22.8538|INFO|PluginManager.InitializePlugins|Total init cost for <Hello World Python> is <0ms>
+2020-03-23 00:03:22.8868|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:03:22.9128|ERROR|Win32.LnkProgram|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 00:03:22.9268|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 00:03:22.9408|ERROR|Win32.LnkProgram|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 00:03:22.9408|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 00:03:22.9628|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-23 00:03:22.9738|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-23 00:03:23.0058|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 00:03:23.0178|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 00:03:23.0298|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:03:23.0298|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 00:03:23.0528|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 00:03:23.0678|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 00:03:23.0808|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 00:03:23.0928|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-23 00:03:23.1108|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 00:03:23.1268|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-23 00:03:23.1268|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk> with HResult <-2147467259>
+2020-03-23 00:03:23.1528|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 00:03:23.1638|ERROR|Win32.LnkProgram|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 00:03:23.1818|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 00:03:23.1928|INFO|PluginManager.InitializePlugins|Total init cost for <Browser Bookmarks> is <487ms>
+2020-03-23 00:03:23.1928|ERROR|Win32.LnkProgram|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 00:03:23.1928|INFO|PluginManager.InitializePlugins|Total init cost for <Browser Bookmarks> is <606ms>
+2020-03-23 00:03:23.2208|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 00:03:23.2588|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-23 00:03:23.2708|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-23 00:03:23.2988|INFO|Wox.Plugin.Program.Main|Program index cost <2294ms>
+2020-03-23 00:03:23.5188|INFO|PluginManager.InitializePlugins|Total init cost for <Steam> is <820ms>
+2020-03-23 00:03:23.5878|INFO|PluginManager.InitializePlugins|Total init cost for <Dictionary> is <911ms>
+2020-03-23 00:03:23.5988|INFO|App.OnStartup|Dependencies Info:
+Python Path: pythonw.exe
+Everything SDK Path: C:\Portable\Wox\app-1.2.0\UserData\Settings\Plugins\Wox.Plugin.Everything\EverythingSDK\x64\Everything.dll
+2020-03-23 00:03:23.6358|INFO|App.OnStartup|End Wox startup ----------------------------------------------------  
+2020-03-23 00:03:23.6458|INFO|App.OnStartup|Startup cost <3173ms>
+2020-03-23 07:53:33.8084|INFO|App.OnStartup|Begin Wox startup ----------------------------------------------------
+2020-03-23 07:53:33.8374|INFO|App.OnStartup|Runtime info:
+Wox version: 1.2.0
+OS Version: Microsoft Windows NT 10.0.18363.0
+IntPtr Length: 8
+x64: True
+2020-03-23 07:53:34.0174|INFO|Wox.Infrastructure.Alphabet.Initialize|Preload pinyin cache <125ms>
+2020-03-23 07:53:34.0334|INFO|Wox.Infrastructure.Alphabet.Initialize|Number of preload pinyin combination<0>
+2020-03-23 07:53:34.1184|INFO|ImageLoader.Initialize|Preload images cost <246ms>
+2020-03-23 07:53:34.1284|INFO|ImageLoader.Initialize|Number of preload images is <34>
+2020-03-23 07:53:34.3414|ERROR|PluginConfig.GetPluginMetadata|Didn't find config file <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Chocolatey-9aa1413a-ba5f-480f-9728-ed5b7b6c3286\plugin.json>
+2020-03-23 07:53:34.6404|INFO|Wox.Plugin.Program.Main|Preload programs cost <14ms>
+2020-03-23 07:53:34.6404|INFO|Wox.Plugin.Program.Main|Number of preload win32 programs <311>
+2020-03-23 07:53:34.6594|INFO|Wox.Plugin.Program.Main|Number of preload uwps <18>
+2020-03-23 07:53:34.8734|ERROR|UWP.LogoPathFromUri| <Microsoft.WindowsCalculator_8wekyb3d8bbwe!App> can't find logo uri for <Assets\CalculatorAppList.png>, Package location <C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.1904.31.0_x64__8wekyb3d8bbwe>.
+2020-03-23 07:53:34.8964|ERROR|UWP.LogoPathFromUri| <Microsoft.ScreenSketch_8wekyb3d8bbwe!App> can't find logo uri for <Assets\ScreenSketchSquare44x44Logo.png>, Package location <C:\Program Files\WindowsApps\Microsoft.ScreenSketch_10.1901.10521.0_x64__8wekyb3d8bbwe>.
+2020-03-23 07:53:34.8964|ERROR|UWP.ResourceFromPri|-------------------------- Begin exception --------------------------
+2020-03-23 07:53:34.9294|ERROR|UWP.ResourceFromPri|Load pri failed <@{Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe? ms-resource:///resources/LensSDK/Resources/AppTitle}> with HResult <2147957527> and location <C:\Program Files\WindowsApps\Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe>.
+2020-03-23 07:53:34.9464|ERROR|UWP.ResourceFromPri|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 07:53:34.9574|ERROR|UWP.ResourceFromPri|Exception message:
+ <Unspecified error
+
+'Microsoft Corporation' violates pattern constraint of '\bms-resource:.{1,256}'.
+>
+2020-03-23 07:53:34.9684|ERROR|UWP.ResourceFromPri|Exception stack trace:
+ <>
+2020-03-23 07:53:34.9684|ERROR|UWP.ResourceFromPri|Exception source:
+ <>
+2020-03-23 07:53:34.9904|ERROR|UWP.ResourceFromPri|Exception target site:
+ <>
+2020-03-23 07:53:35.0024|ERROR|UWP.ResourceFromPri|Exception HResult:
+ <-2147009769>
+2020-03-23 07:53:35.0204|ERROR|UWP.ResourceFromPri|-------------------------- End exception --------------------------
+2020-03-23 07:53:35.0394|ERROR|UWP.ResourceFromPri|-------------------------- Begin exception --------------------------
+2020-03-23 07:53:35.0474|ERROR|UWP.LogoPathFromUri| <Microsoft.Windows.SecHealthUI_cw5n1h2txyewy!SecHealthUI> can't find logo uri for <Assets\Square44x44Logo.png>, Package location <C:\Windows\SystemApps\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy>.
+2020-03-23 07:53:35.0474|ERROR|UWP.ResourceFromPri|Load pri failed <@{Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe? ms-resource:///resources/LensSDK/Resources/AppTitle}> with HResult <2147957527> and location <C:\Program Files\WindowsApps\Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe>.
+2020-03-23 07:53:35.0854|ERROR|UWP.ResourceFromPri|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 07:53:35.1034|ERROR|UWP.ResourceFromPri|Exception message:
+ <NamedResource Not Found. (Exception from HRESULT: 0x80073B17)>
+2020-03-23 07:53:35.1244|ERROR|UWP.ResourceFromPri|Exception stack trace:
+ <>
+2020-03-23 07:53:35.1414|ERROR|UWP.ResourceFromPri|Exception source:
+ <>
+2020-03-23 07:53:35.1604|ERROR|UWP.ResourceFromPri|Exception target site:
+ <>
+2020-03-23 07:53:35.1774|ERROR|UWP.ResourceFromPri|Exception HResult:
+ <-2147009769>
+2020-03-23 07:53:35.1924|ERROR|UWP.ResourceFromPri|-------------------------- End exception --------------------------
+2020-03-23 07:53:35.3264|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 07:53:35.3434|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 07:53:35.3594|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 07:53:35.3764|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 07:53:35.4014|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 07:53:35.4164|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 07:53:35.4344|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 07:53:35.4534|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-23 07:53:35.4684|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 07:53:35.4844|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 07:53:35.5014|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 07:53:35.5234|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 07:53:35.5424|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 07:53:35.5624|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 07:53:35.5784|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 07:53:35.5974|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 07:53:35.6134|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-23 07:53:35.6294|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 07:53:35.6474|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-23 07:53:35.6644|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\System Configuration.lnk> with HResult <-2147467259>
+2020-03-23 07:53:35.6814|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 07:53:35.6984|ERROR|Win32.LnkProgram|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 07:53:35.7164|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 07:53:35.7314|ERROR|Win32.LnkProgram|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 07:53:35.7494|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 07:53:35.7654|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-23 07:53:35.7814|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-23 07:53:35.7984|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-23 07:53:35.8154|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player.lnk> with HResult <-2147467259>
+2020-03-23 07:53:35.8324|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 07:53:35.8494|ERROR|Win32.LnkProgram|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 07:53:35.8664|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 07:53:35.8794|ERROR|Win32.LnkProgram|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 07:53:35.8974|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 07:53:35.9154|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-23 07:53:35.9314|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-23 07:53:35.9834|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 07:53:36.0064|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 07:53:36.0344|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 07:53:36.0554|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 07:53:36.0724|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 07:53:36.0904|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 07:53:36.1124|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 07:53:36.1294|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-23 07:53:36.1294|INFO|PluginManager.InitializePlugins|Total init cost for <Calculator> is <63ms>
+2020-03-23 07:53:36.1294|INFO|PluginManager.InitializePlugins|Total init cost for <Hello World CSharp> is <14ms>
+2020-03-23 07:53:36.1494|INFO|PluginManager.InitializePlugins|Total init cost for <Folder> is <22ms>
+2020-03-23 07:53:36.1494|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 07:53:36.1664|INFO|PluginManager.InitializePlugins|Total init cost for <Colors> is <14ms>
+2020-03-23 07:53:36.1994|INFO|PluginManager.InitializePlugins|Total init cost for <Plugin Indicator> is <15ms>
+2020-03-23 07:53:36.2164|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-23 07:53:36.2534|INFO|PluginManager.InitializePlugins|Total init cost for <Wox Plugin Management> is <17ms>
+2020-03-23 07:53:36.2654|INFO|PluginManager.InitializePlugins|Total init cost for <Everything> is <51ms>
+2020-03-23 07:53:36.2654|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk> with HResult <-2147467259>
+2020-03-23 07:53:36.2864|INFO|PluginManager.InitializePlugins|Total init cost for <Program> is <82ms>
+2020-03-23 07:53:36.3444|INFO|PluginManager.InitializePlugins|Total init cost for <URL> is <18ms>
+2020-03-23 07:53:36.3074|INFO|PluginManager.InitializePlugins|Total init cost for <Shell> is <43ms>
+2020-03-23 07:53:36.3274|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-23 07:53:36.3274|INFO|PluginManager.InitializePlugins|Total init cost for <Control Panel> is <221ms>
+2020-03-23 07:53:36.3654|INFO|PluginManager.InitializePlugins|Total init cost for <Web Searches> is <39ms>
+2020-03-23 07:53:36.3834|INFO|PluginManager.InitializePlugins|Total init cost for <System Commands> is <17ms>
+2020-03-23 07:53:36.4014|ERROR|Win32.LnkProgram|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-23 07:53:36.4394|INFO|PluginManager.InitializePlugins|Total init cost for <Giphy> is <21ms>
+2020-03-23 07:53:36.4746|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-23 07:53:36.4906|INFO|PluginManager.InitializePlugins|Total init cost for <Simple Web Search> is <2ms>
+2020-03-23 07:53:36.5076|ERROR|Win32.LnkProgram|Exception source:
+ <Wox.Plugin.Program>
+2020-03-23 07:53:36.5266|INFO|PluginManager.InitializePlugins|Total init cost for <Weather.Open> is <29ms>
+2020-03-23 07:53:36.5466|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-23 07:53:36.5656|INFO|PluginManager.InitializePlugins|Total init cost for <Stack Overflow> is <137ms>
+2020-03-23 07:53:36.5656|INFO|PluginManager.InitializePlugins|Total init cost for <Wox.SpotifyPremium> is <61ms>
+2020-03-23 07:53:36.5856|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-23 07:53:36.6216|INFO|PluginManager.InitializePlugins|Total init cost for <Hosts> is <0ms>
+2020-03-23 07:53:36.6366|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-23 07:53:36.6406|INFO|PluginManager.InitializePlugins|Total init cost for <YouTubeQuery> is <61ms>
+2020-03-23 07:53:36.6896|INFO|PluginManager.InitializePlugins|Total init cost for <Hello World Python> is <0ms>
+2020-03-23 07:53:37.3306|INFO|PluginManager.InitializePlugins|Total init cost for <Steam> is <897ms>
+2020-03-23 07:53:37.9146|INFO|PluginManager.InitializePlugins|Total init cost for <Browser Bookmarks> is <1752ms>
+2020-03-23 07:53:37.9146|INFO|PluginManager.InitializePlugins|Total init cost for <Browser Bookmarks> is <1511ms>
+2020-03-23 07:53:38.6186|INFO|PluginManager.InitializePlugins|Total init cost for <Dictionary> is <703ms>
+2020-03-23 07:53:38.6326|INFO|App.OnStartup|Dependencies Info:
+Python Path: pythonw.exe
+Everything SDK Path: C:\Portable\Wox\app-1.2.0\UserData\Settings\Plugins\Wox.Plugin.Everything\EverythingSDK\x64\Everything.dll
+2020-03-23 07:53:38.6716|INFO|App.OnStartup|End Wox startup ----------------------------------------------------  
+2020-03-23 07:53:38.6716|INFO|App.OnStartup|Startup cost <5053ms>
+2020-03-23 07:53:47.8609|INFO|Wox.Plugin.Program.Main|Program index cost <13191ms>
