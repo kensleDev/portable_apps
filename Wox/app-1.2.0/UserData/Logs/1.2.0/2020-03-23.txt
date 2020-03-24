@@ -721,3 +721,696 @@ Everything SDK Path: C:\Portable\Wox\app-1.2.0\UserData\Settings\Plugins\Wox.Plu
 2020-03-23 07:53:38.6716|INFO|App.OnStartup|End Wox startup ----------------------------------------------------  
 2020-03-23 07:53:38.6716|INFO|App.OnStartup|Startup cost <5053ms>
 2020-03-23 07:53:47.8609|INFO|Wox.Plugin.Program.Main|Program index cost <13191ms>
+2020-03-23 19:50:15.9647|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 19:50:15.9786|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 19:50:15.9947|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 19:50:16.0117|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 19:50:16.0457|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 19:50:16.0637|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 19:50:16.0787|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 19:50:16.0917|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 19:50:16.1047|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 19:50:16.1207|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 19:50:16.1327|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 19:50:16.1677|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 19:50:16.1907|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 19:50:16.2047|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 19:50:16.2257|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 19:50:16.2427|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 19:50:16.2597|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 19:50:16.2767|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 19:50:17.0817|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 19:50:17.0997|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 19:50:17.0997|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 19:50:17.1256|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 19:50:17.1397|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 19:50:17.1527|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 19:50:17.1657|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 19:50:17.1787|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 19:50:17.1787|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 19:50:17.2037|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 19:50:17.2167|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 19:50:17.2287|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 19:50:17.2407|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 19:50:17.2407|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 19:50:17.2677|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 19:50:17.2797|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 19:50:17.2927|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 19:50:17.3057|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 19:50:17.7787|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 19:50:17.7997|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 19:50:17.8127|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 19:50:17.8257|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 19:50:17.8377|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 19:50:17.8507|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 19:50:17.8637|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 19:50:17.8637|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 19:50:17.8887|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 19:50:17.9017|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 19:50:17.9147|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 19:50:17.9267|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 19:50:17.9267|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 19:50:17.9547|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 19:50:17.9797|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 19:50:17.9937|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 19:50:18.0127|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 19:50:18.0287|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 19:50:18.0417|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 19:50:18.0597|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 19:50:18.0727|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 19:50:18.0867|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 19:50:18.1127|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 19:50:18.1287|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 19:50:18.1437|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 19:50:18.1567|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 19:50:18.1706|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 19:50:18.1847|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 19:50:18.2097|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 19:50:18.2237|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 19:50:18.2237|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 19:50:18.2497|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 19:50:18.2637|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 19:50:18.2767|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 19:50:18.2897|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 19:50:18.3027|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 22:51:15.5870|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 22:51:15.6020|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 22:51:15.6020|ERROR|UWP.ImageFromPath|Can't get logo for <Microsoft.WindowsCalculator_8wekyb3d8bbwe!App> with path <> and location <C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.1904.31.0_x64__8wekyb3d8bbwe>
+2020-03-23 22:51:15.6290|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:51:15.6650|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:51:15.6760|ERROR|UWP.ImageFromPath|Can't get logo for <Microsoft.WindowsCalculator_8wekyb3d8bbwe!App> with path <> and location <C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.1904.31.0_x64__8wekyb3d8bbwe>
+2020-03-23 22:51:15.6760|ERROR|UWP.ImageFromPath|Can't get logo for <Microsoft.WindowsCalculator_8wekyb3d8bbwe!App> with path <> and location <C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.1904.31.0_x64__8wekyb3d8bbwe>
+2020-03-23 22:51:15.7100|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:51:15.7640|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 22:51:15.8190|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:51:15.8480|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 22:51:15.8810|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 22:51:15.8970|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 22:51:15.9120|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 22:51:15.9260|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:51:15.9260|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:51:15.9550|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:51:15.9690|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 22:51:15.9840|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:51:15.9980|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 22:51:16.0120|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 22:51:16.0280|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 22:51:16.0460|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 22:51:16.0610|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:51:16.0760|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:51:16.0920|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:51:16.1080|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 22:51:16.1260|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:51:16.1440|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 22:51:16.1580|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 22:51:16.1760|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 22:51:16.2070|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 22:51:16.2470|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:51:16.2640|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:51:16.2810|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:51:16.2960|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 22:51:16.3100|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:51:16.3310|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 22:51:16.3470|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 22:52:05.8330|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 22:52:05.8540|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 22:52:05.8720|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:52:05.8900|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:52:05.9120|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:52:05.9320|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 22:52:05.9470|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:52:05.9840|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 22:52:06.0060|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 22:52:06.0300|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 22:52:06.0530|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 22:52:06.0770|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:52:06.0950|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:52:06.1170|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:52:06.1380|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 22:52:06.1590|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:52:06.2100|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 22:52:06.2450|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 22:52:06.2740|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 22:52:06.2990|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 22:52:06.3230|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:52:06.3760|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:52:06.4000|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:52:06.4220|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 22:52:06.4440|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:52:06.4700|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 22:52:06.4910|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 22:52:06.5120|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 22:52:06.5310|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 22:52:06.5520|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:52:06.5760|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:52:06.5970|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:52:06.6150|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 22:52:06.6330|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:52:06.6530|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 22:52:06.6710|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 22:52:06.6890|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 22:52:06.7051|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 22:52:06.7310|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:52:06.7570|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:52:06.7720|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:52:06.7870|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 22:52:06.8090|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:52:06.8260|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 22:52:06.8410|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 22:52:06.8550|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 22:52:06.8690|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 22:52:06.8830|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:52:06.8970|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:52:06.9120|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:52:06.9270|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 22:52:06.9420|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:52:06.9420|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 22:52:06.9710|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 22:54:32.4468|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 22:54:32.4668|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 22:54:32.4838|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:54:32.5168|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:54:32.5398|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:54:32.5618|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 22:54:32.5848|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:54:32.6058|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 22:54:32.6218|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 22:54:32.6538|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 22:54:32.6788|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 22:54:32.7018|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:54:32.7198|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:54:32.7358|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:54:32.7518|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 22:54:32.7668|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:54:32.7828|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 22:54:32.7978|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 22:54:38.2138|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 22:54:38.2308|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 22:54:38.2478|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:54:38.2658|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:54:38.2848|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:54:38.3128|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 22:54:38.3328|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:54:38.3488|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 22:54:38.3648|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 22:54:38.3918|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 22:54:38.4138|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 22:54:38.4318|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:54:38.4488|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:54:38.4648|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:54:38.4798|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 22:54:38.4958|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:54:38.5118|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 22:54:38.5268|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 22:55:20.6068|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 22:55:20.6248|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 22:55:20.6418|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:55:20.6568|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:55:20.6718|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:55:20.6918|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 22:55:20.7148|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:55:20.7308|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 22:55:20.7478|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 22:55:20.7638|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 22:55:20.7808|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 22:55:20.7958|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:55:20.8138|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:55:20.8428|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:55:20.8598|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 22:55:20.8748|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:55:20.8908|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 22:55:20.9088|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 22:55:20.9258|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 22:55:20.9418|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 22:55:20.9598|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:55:20.9748|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:55:20.9918|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:55:21.0078|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 22:55:21.0238|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:55:21.0388|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 22:55:21.0548|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 22:55:21.0698|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 22:55:21.0878|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 22:55:21.1048|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:55:21.1198|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:55:21.1368|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:55:21.1518|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 22:55:21.1668|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:55:21.1828|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 22:55:21.2208|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 22:55:26.2108|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 22:55:26.2308|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 22:55:26.2488|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:55:26.2648|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:55:26.2808|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:55:26.3088|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 22:55:26.3288|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:55:26.3448|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 22:55:26.3608|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 22:55:26.3768|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 22:55:26.3928|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 22:55:26.4088|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:55:26.4248|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:55:26.4408|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:55:26.4568|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 22:55:26.4718|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:55:26.4878|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 22:55:26.5128|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 22:55:38.7868|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 22:55:38.8038|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 22:55:38.8248|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:55:38.8478|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:55:38.8648|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:55:38.8808|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 22:55:38.8968|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:55:38.9138|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 22:55:38.9298|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 22:55:38.9458|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 22:55:38.9708|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 22:55:38.9878|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:55:39.0048|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:55:39.0218|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:55:39.0378|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 22:55:39.0548|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:55:39.0718|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 22:55:39.0888|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 22:55:47.2288|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 22:55:47.2478|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 22:55:47.2648|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:55:47.2928|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:55:47.3108|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:55:47.3288|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 22:55:47.3448|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:55:47.3658|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 22:55:47.3888|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 22:55:47.4068|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 22:55:47.4238|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 22:55:47.4398|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 22:55:47.4578|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 22:55:47.4758|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 22:55:47.4928|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 22:55:47.5098|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 22:55:47.5258|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 22:55:47.5418|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 23:00:14.0067|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 23:00:14.0257|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 23:00:14.0427|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 23:00:14.0587|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 23:00:14.0767|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 23:00:14.0937|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 23:00:14.1117|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 23:00:14.1447|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 23:00:14.1637|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 23:00:14.1817|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 23:00:14.1987|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 23:00:14.2147|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 23:00:14.2327|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 23:00:14.2497|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 23:00:14.2677|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 23:00:14.2857|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 23:00:14.3057|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 23:00:14.3247|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 23:00:25.0797|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 23:00:25.1027|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 23:00:25.1237|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 23:00:25.1407|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 23:00:25.1677|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 23:00:25.1897|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 23:00:25.2107|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 23:00:25.2307|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 23:00:25.2477|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 23:00:25.2717|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 23:00:25.3007|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 23:00:25.3187|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 23:00:25.3357|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 23:00:25.3547|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 23:00:25.3717|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 23:00:25.3887|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 23:00:25.4057|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 23:00:25.4237|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 23:00:31.6297|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 23:00:31.6477|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 23:00:31.6657|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 23:00:31.6817|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 23:00:31.7137|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 23:00:31.7337|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 23:00:31.7517|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 23:00:31.7687|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 23:00:31.7857|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 23:00:31.8047|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 23:00:31.8257|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 23:00:31.8557|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 23:00:31.8737|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 23:00:31.8907|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 23:00:31.9087|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 23:00:31.9267|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 23:00:31.9437|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 23:00:31.9607|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 23:00:36.8107|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 23:00:36.8287|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 23:00:36.8467|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 23:00:36.8637|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 23:00:36.8897|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 23:00:36.9117|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 23:00:36.9297|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 23:00:36.9477|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 23:00:36.9647|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 23:00:36.9987|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 23:00:37.0167|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 23:00:37.0367|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 23:00:37.0547|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 23:00:37.0737|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 23:00:37.0907|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 23:00:37.1097|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 23:00:37.1267|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 23:00:37.1447|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 23:00:44.2927|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 23:00:44.3207|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 23:00:44.3517|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 23:00:44.3717|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 23:00:44.3897|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 23:00:44.4087|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 23:00:44.4267|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 23:00:44.4547|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 23:00:44.4737|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 23:00:44.4927|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 23:00:44.5097|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 23:00:44.5277|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 23:00:44.5467|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 23:00:44.5647|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 23:00:44.5827|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 23:00:44.6007|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 23:00:44.6187|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 23:00:44.6367|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 23:00:44.6557|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 23:00:44.6737|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 23:00:44.6937|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 23:00:44.7117|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 23:00:44.7317|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 23:00:44.7487|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 23:00:44.7667|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 23:00:44.7847|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 23:00:44.8017|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 23:00:44.8197|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 23:00:44.8377|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 23:00:44.8557|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 23:00:44.8737|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 23:00:44.8917|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 23:00:44.9107|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 23:00:44.9307|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 23:00:44.9477|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 23:00:44.9667|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-23 23:02:46.0417|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-23 23:02:46.0617|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-23 23:02:46.0817|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 23:02:46.1007|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 23:02:46.1347|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 23:02:46.1687|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-23 23:02:46.1947|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 23:02:46.2527|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-23 23:02:46.2807|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-23 23:02:46.3027|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-23 23:02:46.3227|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-23 23:02:46.3437|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-23 23:02:46.3637|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-23 23:02:46.3837|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-23 23:02:46.4057|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-23 23:02:46.4297|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-23 23:02:46.4487|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-23 23:02:46.4667|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------

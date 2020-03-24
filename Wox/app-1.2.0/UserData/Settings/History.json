@@ -3,6 +3,42 @@
     {
       "Query": "/",
       "ExecutedDateTime": "2020-03-23T00:03:35.7478843+00:00"
+    },
+    {
+      "Query": "code",
+      "ExecutedDateTime": "2020-03-23T22:51:16.1720895+00:00"
+    },
+    {
+      "Query": "sett",
+      "ExecutedDateTime": "2020-03-23T22:52:06.8130892+00:00"
+    },
+    {
+      "Query": "set",
+      "ExecutedDateTime": "2020-03-23T23:00:14.7917011+00:00"
+    },
+    {
+      "Query": "emoji trash",
+      "ExecutedDateTime": "2020-03-23T23:02:51.052774+00:00"
+    },
+    {
+      "Query": "code",
+      "ExecutedDateTime": "2020-03-24T10:05:24.3118153+00:00"
+    },
+    {
+      "Query": "visual",
+      "ExecutedDateTime": "2020-03-24T11:10:40.7695555+00:00"
+    },
+    {
+      "Query": "wpm",
+      "ExecutedDateTime": "2020-03-24T11:41:07.3001917+00:00"
+    },
+    {
+      "Query": "wpm list",
+      "ExecutedDateTime": "2020-03-24T11:41:11.5062226+00:00"
+    },
+    {
+      "Query": "code",
+      "ExecutedDateTime": "2020-03-24T11:43:31.4278723+00:00"
     }
   ]
 }

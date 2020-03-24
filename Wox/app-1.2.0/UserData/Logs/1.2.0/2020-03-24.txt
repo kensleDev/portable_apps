@@ -1,0 +1,1210 @@
+2020-03-24 08:09:53.9519|INFO|App.OnStartup|Begin Wox startup ----------------------------------------------------
+2020-03-24 08:09:53.9769|INFO|App.OnStartup|Runtime info:
+Wox version: 1.2.0
+OS Version: Microsoft Windows NT 10.0.18363.0
+IntPtr Length: 8
+x64: True
+2020-03-24 08:09:54.9429|INFO|Wox.Infrastructure.Alphabet.Initialize|Preload pinyin cache <903ms>
+2020-03-24 08:09:54.9429|INFO|Wox.Infrastructure.Alphabet.Initialize|Number of preload pinyin combination<0>
+2020-03-24 08:09:55.1639|INFO|ImageLoader.Initialize|Preload images cost <1146ms>
+2020-03-24 08:09:55.1639|INFO|ImageLoader.Initialize|Number of preload images is <135>
+2020-03-24 08:09:55.2769|ERROR|PluginConfig.GetPluginMetadata|Didn't find config file <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Chocolatey-9aa1413a-ba5f-480f-9728-ed5b7b6c3286\plugin.json>
+2020-03-24 08:09:55.5773|INFO|Wox.Plugin.Program.Main|Preload programs cost <17ms>
+2020-03-24 08:09:55.5773|INFO|Wox.Plugin.Program.Main|Number of preload win32 programs <311>
+2020-03-24 08:09:55.5853|INFO|Wox.Plugin.Program.Main|Number of preload uwps <18>
+2020-03-24 08:09:55.8733|ERROR|UWP.LogoPathFromUri| <Microsoft.WindowsCalculator_8wekyb3d8bbwe!App> can't find logo uri for <Assets\CalculatorAppList.png>, Package location <C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.1904.31.0_x64__8wekyb3d8bbwe>.
+2020-03-24 08:09:55.9133|ERROR|UWP.ResourceFromPri|-------------------------- Begin exception --------------------------
+2020-03-24 08:09:55.9133|ERROR|UWP.LogoPathFromUri| <Microsoft.ScreenSketch_8wekyb3d8bbwe!App> can't find logo uri for <Assets\ScreenSketchSquare44x44Logo.png>, Package location <C:\Program Files\WindowsApps\Microsoft.ScreenSketch_10.1901.10521.0_x64__8wekyb3d8bbwe>.
+2020-03-24 08:09:55.9313|ERROR|UWP.ResourceFromPri|Load pri failed <@{Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe? ms-resource:///resources/LensSDK/Resources/AppTitle}> with HResult <2147957527> and location <C:\Program Files\WindowsApps\Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe>.
+2020-03-24 08:09:55.9553|ERROR|UWP.ResourceFromPri|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 08:09:55.9703|ERROR|UWP.ResourceFromPri|Exception message:
+ <Unspecified error
+
+'Microsoft Corporation' violates pattern constraint of '\bms-resource:.{1,256}'.
+>
+2020-03-24 08:09:55.9793|ERROR|UWP.ResourceFromPri|Exception stack trace:
+ <>
+2020-03-24 08:09:55.9793|ERROR|UWP.ResourceFromPri|Exception source:
+ <>
+2020-03-24 08:09:55.9943|ERROR|UWP.ResourceFromPri|Exception target site:
+ <>
+2020-03-24 08:09:55.9943|ERROR|UWP.ResourceFromPri|Exception HResult:
+ <-2147009769>
+2020-03-24 08:09:56.0063|ERROR|UWP.ResourceFromPri|-------------------------- End exception --------------------------
+2020-03-24 08:09:56.0063|ERROR|UWP.ResourceFromPri|-------------------------- Begin exception --------------------------
+2020-03-24 08:09:56.0243|ERROR|UWP.ResourceFromPri|Load pri failed <@{Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe? ms-resource:///resources/LensSDK/Resources/AppTitle}> with HResult <2147957527> and location <C:\Program Files\WindowsApps\Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe>.
+2020-03-24 08:09:56.0243|ERROR|UWP.ResourceFromPri|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 08:09:56.0403|ERROR|UWP.ResourceFromPri|Exception message:
+ <NamedResource Not Found. (Exception from HRESULT: 0x80073B17)>
+2020-03-24 08:09:56.0403|ERROR|UWP.ResourceFromPri|Exception stack trace:
+ <>
+2020-03-24 08:09:56.0583|ERROR|UWP.ResourceFromPri|Exception source:
+ <>
+2020-03-24 08:09:56.0723|ERROR|UWP.ResourceFromPri|Exception target site:
+ <>
+2020-03-24 08:09:56.0823|ERROR|UWP.ResourceFromPri|Exception HResult:
+ <-2147009769>
+2020-03-24 08:09:56.0823|ERROR|UWP.ResourceFromPri|-------------------------- End exception --------------------------
+2020-03-24 08:09:56.1123|ERROR|UWP.LogoPathFromUri| <Microsoft.Windows.SecHealthUI_cw5n1h2txyewy!SecHealthUI> can't find logo uri for <Assets\Square44x44Logo.png>, Package location <C:\Windows\SystemApps\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy>.
+2020-03-24 08:09:56.4748|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 08:09:56.4968|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 08:09:56.5098|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 08:09:56.5338|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Unspecified error
+
+'Microsoft Corporation' violates pattern constraint of '\bms-resource:.{1,256}'.
+>
+2020-03-24 08:09:56.5698|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-24 08:09:56.5698|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <>
+2020-03-24 08:09:56.5908|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-24 08:09:56.6008|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-24 08:09:56.6008|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 08:09:56.6268|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 08:09:56.6398|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 08:09:56.6538|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 08:09:56.6628|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Unspecified error
+
+'Microsoft Corporation' violates pattern constraint of '\bms-resource:.{1,256}'.
+>
+2020-03-24 08:09:56.6628|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-24 08:09:56.6878|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <>
+2020-03-24 08:09:56.7118|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-24 08:09:56.7328|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-24 08:09:56.7698|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 08:09:56.7888|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-24 08:09:56.7888|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\System Configuration.lnk> with HResult <-2147467259>
+2020-03-24 08:09:56.8188|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 08:09:56.8398|ERROR|Win32.LnkProgram|Exception message:
+ <Unspecified error
+
+'Microsoft Corporation' violates pattern constraint of '\bms-resource:.{1,256}'.
+>
+2020-03-24 08:09:56.8548|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-24 08:09:56.8668|ERROR|Win32.LnkProgram|Exception source:
+ <>
+2020-03-24 08:09:56.8668|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-24 08:09:56.8888|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-24 08:09:56.8998|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-24 08:09:56.9118|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-24 08:09:56.9328|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player.lnk> with HResult <-2147467259>
+2020-03-24 08:09:56.9468|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 08:09:56.9608|ERROR|Win32.LnkProgram|Exception message:
+ <Unspecified error
+
+'Microsoft Corporation' violates pattern constraint of '\bms-resource:.{1,256}'.
+>
+2020-03-24 08:09:56.9608|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-24 08:09:56.9838|ERROR|Win32.LnkProgram|Exception source:
+ <>
+2020-03-24 08:09:56.9968|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-24 08:09:57.0128|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-24 08:09:57.0278|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-24 08:09:57.0878|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 08:09:57.1008|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 08:09:57.1148|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 08:09:57.1148|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-24 08:09:57.1388|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-24 08:09:57.1478|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Program>
+2020-03-24 08:09:57.1478|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-24 08:09:57.1698|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-24 08:09:57.1788|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 08:09:57.1788|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-24 08:09:57.2038|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk> with HResult <-2147467259>
+2020-03-24 08:09:57.2148|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 08:09:57.2248|ERROR|Win32.LnkProgram|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-24 08:09:57.2248|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-24 08:09:57.2478|ERROR|Win32.LnkProgram|Exception source:
+ <Wox.Plugin.Program>
+2020-03-24 08:09:57.2608|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-24 08:09:57.2708|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-24 08:09:57.2708|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-24 08:09:57.3498|INFO|PluginManager.InitializePlugins|Total init cost for <URL> is <30ms>
+2020-03-24 08:09:57.3498|INFO|PluginManager.InitializePlugins|Total init cost for <Hello World CSharp> is <15ms>
+2020-03-24 08:09:57.3498|INFO|PluginManager.InitializePlugins|Total init cost for <Folder> is <22ms>
+2020-03-24 08:09:57.3498|INFO|PluginManager.InitializePlugins|Total init cost for <Shell> is <51ms>
+2020-03-24 08:09:57.3498|INFO|PluginManager.InitializePlugins|Total init cost for <Calculator> is <49ms>
+2020-03-24 08:09:57.3498|INFO|PluginManager.InitializePlugins|Total init cost for <Wox Plugin Management> is <20ms>
+2020-03-24 08:09:57.3649|INFO|PluginManager.InitializePlugins|Total init cost for <Web Searches> is <84ms>
+2020-03-24 08:09:57.3809|INFO|PluginManager.InitializePlugins|Total init cost for <Plugin Indicator> is <16ms>
+2020-03-24 08:09:57.3809|INFO|PluginManager.InitializePlugins|Total init cost for <System Commands> is <21ms>
+2020-03-24 08:09:57.3989|INFO|PluginManager.InitializePlugins|Total init cost for <Colors> is <14ms>
+2020-03-24 08:09:57.3989|INFO|PluginManager.InitializePlugins|Total init cost for <Program> is <71ms>
+2020-03-24 08:09:57.4309|INFO|PluginManager.InitializePlugins|Total init cost for <Giphy> is <29ms>
+2020-03-24 08:09:57.4629|INFO|PluginManager.InitializePlugins|Total init cost for <Weather.Open> is <26ms>
+2020-03-24 08:09:57.4799|INFO|PluginManager.InitializePlugins|Total init cost for <Simple Web Search> is <27ms>
+2020-03-24 08:09:57.4889|INFO|PluginManager.InitializePlugins|Total init cost for <Everything> is <56ms>
+2020-03-24 08:09:57.4889|INFO|PluginManager.InitializePlugins|Total init cost for <Wox.SpotifyPremium> is <83ms>
+2020-03-24 08:09:57.5113|INFO|PluginManager.InitializePlugins|Total init cost for <Hosts> is <0ms>
+2020-03-24 08:09:57.5393|INFO|PluginManager.InitializePlugins|Total init cost for <Control Panel> is <209ms>
+2020-03-24 08:09:57.5393|INFO|PluginManager.InitializePlugins|Total init cost for <Stack Overflow> is <128ms>
+2020-03-24 08:09:57.5393|INFO|PluginManager.InitializePlugins|Total init cost for <YouTubeQuery> is <69ms>
+2020-03-24 08:09:57.5703|INFO|PluginManager.InitializePlugins|Total init cost for <Hello World Python> is <0ms>
+2020-03-24 08:09:58.3705|INFO|PluginManager.InitializePlugins|Total init cost for <Dictionary> is <985ms>
+2020-03-24 08:09:58.9599|INFO|PluginManager.InitializePlugins|Total init cost for <Browser Bookmarks> is <1611ms>
+2020-03-24 08:09:58.9599|INFO|PluginManager.InitializePlugins|Total init cost for <Browser Bookmarks> is <1607ms>
+2020-03-24 08:10:07.5850|INFO|PluginManager.InitializePlugins|Total init cost for <Steam> is <10059ms>
+2020-03-24 08:10:07.5850|INFO|App.OnStartup|Dependencies Info:
+Python Path: pythonw.exe
+Everything SDK Path: C:\Portable\Wox\app-1.2.0\UserData\Settings\Plugins\Wox.Plugin.Everything\EverythingSDK\x64\Everything.dll
+2020-03-24 08:10:07.6350|INFO|App.OnStartup|End Wox startup ----------------------------------------------------  
+2020-03-24 08:10:07.6350|INFO|App.OnStartup|Startup cost <13883ms>
+2020-03-24 08:10:09.0770|INFO|Wox.Plugin.Program.Main|Program index cost <13485ms>
+2020-03-24 09:33:30.1747|INFO|App.OnStartup|Begin Wox startup ----------------------------------------------------
+2020-03-24 09:33:30.2057|INFO|App.OnStartup|Runtime info:
+Wox version: 1.2.0
+OS Version: Microsoft Windows NT 10.0.18363.0
+IntPtr Length: 8
+x64: True
+2020-03-24 09:33:31.3377|INFO|Wox.Infrastructure.Alphabet.Initialize|Preload pinyin cache <1041ms>
+2020-03-24 09:33:31.3467|INFO|Wox.Infrastructure.Alphabet.Initialize|Number of preload pinyin combination<0>
+2020-03-24 09:33:31.6267|INFO|ImageLoader.Initialize|Preload images cost <1359ms>
+2020-03-24 09:33:31.6267|INFO|ImageLoader.Initialize|Number of preload images is <135>
+2020-03-24 09:33:31.7097|ERROR|PluginConfig.GetPluginMetadata|Didn't find config file <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Chocolatey-9aa1413a-ba5f-480f-9728-ed5b7b6c3286\plugin.json>
+2020-03-24 09:33:32.0537|INFO|Wox.Plugin.Program.Main|Preload programs cost <16ms>
+2020-03-24 09:33:32.0607|INFO|Wox.Plugin.Program.Main|Number of preload win32 programs <311>
+2020-03-24 09:33:32.0607|INFO|Wox.Plugin.Program.Main|Number of preload uwps <18>
+2020-03-24 09:33:32.3497|ERROR|UWP.LogoPathFromUri| <Microsoft.WindowsCalculator_8wekyb3d8bbwe!App> can't find logo uri for <Assets\CalculatorAppList.png>, Package location <C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.1904.31.0_x64__8wekyb3d8bbwe>.
+2020-03-24 09:33:32.3837|ERROR|UWP.ResourceFromPri|-------------------------- Begin exception --------------------------
+2020-03-24 09:33:32.4007|ERROR|UWP.ResourceFromPri|Load pri failed <@{Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe? ms-resource:///resources/LensSDK/Resources/AppTitle}> with HResult <2147957527> and location <C:\Program Files\WindowsApps\Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe>.
+2020-03-24 09:33:32.4047|ERROR|UWP.LogoPathFromUri| <Microsoft.ScreenSketch_8wekyb3d8bbwe!App> can't find logo uri for <Assets\ScreenSketchSquare44x44Logo.png>, Package location <C:\Program Files\WindowsApps\Microsoft.ScreenSketch_10.1901.10521.0_x64__8wekyb3d8bbwe>.
+2020-03-24 09:33:32.4287|ERROR|UWP.ResourceFromPri|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 09:33:32.4627|ERROR|UWP.ResourceFromPri|Exception message:
+ <Unspecified error
+
+'Microsoft Corporation' violates pattern constraint of '\bms-resource:.{1,256}'.
+>
+2020-03-24 09:33:32.4777|ERROR|UWP.ResourceFromPri|Exception stack trace:
+ <>
+2020-03-24 09:33:32.4887|ERROR|UWP.ResourceFromPri|Exception source:
+ <>
+2020-03-24 09:33:32.5007|ERROR|UWP.ResourceFromPri|Exception target site:
+ <>
+2020-03-24 09:33:32.5007|ERROR|UWP.ResourceFromPri|Exception HResult:
+ <-2147009769>
+2020-03-24 09:33:32.5187|ERROR|UWP.ResourceFromPri|-------------------------- End exception --------------------------
+2020-03-24 09:33:32.5347|ERROR|UWP.ResourceFromPri|-------------------------- Begin exception --------------------------
+2020-03-24 09:33:32.5467|ERROR|UWP.ResourceFromPri|Load pri failed <@{Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe? ms-resource:///resources/LensSDK/Resources/AppTitle}> with HResult <2147957527> and location <C:\Program Files\WindowsApps\Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe>.
+2020-03-24 09:33:32.5467|ERROR|UWP.ResourceFromPri|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 09:33:32.5677|ERROR|UWP.ResourceFromPri|Exception message:
+ <NamedResource Not Found. (Exception from HRESULT: 0x80073B17)>
+2020-03-24 09:33:32.5797|ERROR|UWP.ResourceFromPri|Exception stack trace:
+ <>
+2020-03-24 09:33:32.5797|ERROR|UWP.LogoPathFromUri| <Microsoft.Windows.SecHealthUI_cw5n1h2txyewy!SecHealthUI> can't find logo uri for <Assets\Square44x44Logo.png>, Package location <C:\Windows\SystemApps\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy>.
+2020-03-24 09:33:32.5977|ERROR|UWP.ResourceFromPri|Exception source:
+ <>
+2020-03-24 09:33:32.6537|ERROR|UWP.ResourceFromPri|Exception target site:
+ <>
+2020-03-24 09:33:32.6747|ERROR|UWP.ResourceFromPri|Exception HResult:
+ <-2147009769>
+2020-03-24 09:33:32.6907|ERROR|UWP.ResourceFromPri|-------------------------- End exception --------------------------
+2020-03-24 09:33:33.0632|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 09:33:33.0782|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 09:33:33.0942|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 09:33:33.1092|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-24 09:33:33.1432|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-24 09:33:33.1592|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Program>
+2020-03-24 09:33:33.1742|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-24 09:33:33.1932|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-24 09:33:33.2082|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 09:33:33.2242|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 09:33:33.2402|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 09:33:33.2542|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 09:33:33.2792|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Unspecified error
+
+'Microsoft Corporation' violates pattern constraint of '\bms-resource:.{1,256}'.
+>
+2020-03-24 09:33:33.2972|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-24 09:33:33.3142|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <>
+2020-03-24 09:33:33.3322|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-24 09:33:33.3512|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-24 09:33:33.3632|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 09:33:33.3822|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-24 09:33:33.3942|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\System Configuration.lnk> with HResult <-2147467259>
+2020-03-24 09:33:33.4062|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 09:33:33.4062|ERROR|Win32.LnkProgram|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-24 09:33:33.4332|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-24 09:33:33.4482|ERROR|Win32.LnkProgram|Exception source:
+ <Wox.Plugin.Program>
+2020-03-24 09:33:33.4612|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-24 09:33:33.4742|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-24 09:33:33.4872|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-24 09:33:33.5002|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-24 09:33:33.5142|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player.lnk> with HResult <-2147467259>
+2020-03-24 09:33:33.5142|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 09:33:33.5422|ERROR|Win32.LnkProgram|Exception message:
+ <Unspecified error
+
+'Microsoft Corporation' violates pattern constraint of '\bms-resource:.{1,256}'.
+>
+2020-03-24 09:33:33.5552|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-24 09:33:33.5692|ERROR|Win32.LnkProgram|Exception source:
+ <>
+2020-03-24 09:33:33.5832|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-24 09:33:33.5992|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-24 09:33:33.6142|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-24 09:33:33.6852|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 09:33:33.7052|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 09:33:33.7252|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 09:33:33.7402|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-24 09:33:33.7662|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-24 09:33:33.7822|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Program>
+2020-03-24 09:33:33.7982|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-24 09:33:33.8152|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-24 09:33:33.8292|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 09:33:33.8442|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-24 09:33:33.8442|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk> with HResult <-2147467259>
+2020-03-24 09:33:33.8691|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 09:33:33.8851|ERROR|Win32.LnkProgram|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-24 09:33:33.9011|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-24 09:33:33.9151|ERROR|Win32.LnkProgram|Exception source:
+ <Wox.Plugin.Program>
+2020-03-24 09:33:33.9251|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-24 09:33:33.9381|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-24 09:33:33.9521|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-24 09:33:33.9941|INFO|PluginManager.InitializePlugins|Total init cost for <Wox Plugin Management> is <20ms>
+2020-03-24 09:33:33.9941|INFO|PluginManager.InitializePlugins|Total init cost for <URL> is <28ms>
+2020-03-24 09:33:33.9941|INFO|PluginManager.InitializePlugins|Total init cost for <Shell> is <61ms>
+2020-03-24 09:33:33.9941|INFO|PluginManager.InitializePlugins|Total init cost for <Folder> is <29ms>
+2020-03-24 09:33:33.9941|INFO|PluginManager.InitializePlugins|Total init cost for <Calculator> is <55ms>
+2020-03-24 09:33:33.9941|INFO|PluginManager.InitializePlugins|Total init cost for <Hello World CSharp> is <19ms>
+2020-03-24 09:33:34.0061|INFO|PluginManager.InitializePlugins|Total init cost for <Program> is <80ms>
+2020-03-24 09:33:34.0201|INFO|PluginManager.InitializePlugins|Total init cost for <Web Searches> is <70ms>
+2020-03-24 09:33:34.0201|INFO|PluginManager.InitializePlugins|Total init cost for <System Commands> is <22ms>
+2020-03-24 09:33:34.0381|INFO|PluginManager.InitializePlugins|Total init cost for <Plugin Indicator> is <19ms>
+2020-03-24 09:33:34.0481|INFO|PluginManager.InitializePlugins|Total init cost for <Colors> is <16ms>
+2020-03-24 09:33:34.0851|INFO|PluginManager.InitializePlugins|Total init cost for <Giphy> is <51ms>
+2020-03-24 09:33:34.1131|INFO|PluginManager.InitializePlugins|Total init cost for <Weather.Open> is <22ms>
+2020-03-24 09:33:34.1461|INFO|PluginManager.InitializePlugins|Total init cost for <Simple Web Search> is <38ms>
+2020-03-24 09:33:34.1581|INFO|PluginManager.InitializePlugins|Total init cost for <Wox.SpotifyPremium> is <116ms>
+2020-03-24 09:33:34.1731|INFO|PluginManager.InitializePlugins|Total init cost for <Everything> is <73ms>
+2020-03-24 09:33:34.1731|INFO|PluginManager.InitializePlugins|Total init cost for <Hosts> is <0ms>
+2020-03-24 09:33:34.2121|INFO|PluginManager.InitializePlugins|Total init cost for <Control Panel> is <240ms>
+2020-03-24 09:33:34.2121|INFO|PluginManager.InitializePlugins|Total init cost for <YouTubeQuery> is <85ms>
+2020-03-24 09:33:34.2371|INFO|PluginManager.InitializePlugins|Total init cost for <Hello World Python> is <0ms>
+2020-03-24 09:33:34.2551|INFO|PluginManager.InitializePlugins|Total init cost for <Stack Overflow> is <196ms>
+2020-03-24 09:33:35.5491|INFO|PluginManager.InitializePlugins|Total init cost for <Steam> is <1316ms>
+2020-03-24 09:33:35.6000|INFO|PluginManager.InitializePlugins|Total init cost for <Dictionary> is <1565ms>
+2020-03-24 09:33:36.1947|INFO|PluginManager.InitializePlugins|Total init cost for <Browser Bookmarks> is <2183ms>
+2020-03-24 09:33:36.1947|INFO|PluginManager.InitializePlugins|Total init cost for <Browser Bookmarks> is <2156ms>
+2020-03-24 09:33:36.2157|INFO|App.OnStartup|Dependencies Info:
+Python Path: pythonw.exe
+Everything SDK Path: C:\Portable\Wox\app-1.2.0\UserData\Settings\Plugins\Wox.Plugin.Everything\EverythingSDK\x64\Everything.dll
+2020-03-24 09:33:36.2617|INFO|App.OnStartup|End Wox startup ----------------------------------------------------  
+2020-03-24 09:33:36.2707|INFO|App.OnStartup|Startup cost <6275ms>
+2020-03-24 09:33:46.4217|INFO|Wox.Plugin.Program.Main|Program index cost <14343ms>
+2020-03-24 10:05:23.4978|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 10:05:23.5088|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 10:05:23.5238|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 10:05:23.5318|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 10:05:23.5798|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 10:05:23.5798|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-24 10:05:23.5988|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 10:05:23.6178|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-24 10:05:23.6278|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 10:05:23.6278|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 10:05:23.6438|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 10:05:23.6438|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 10:05:23.6598|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 10:05:23.6598|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 10:05:23.6758|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-24 10:05:23.6758|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 10:05:23.6978|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-24 10:05:23.7108|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 10:05:23.7208|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-24 10:05:23.7208|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-24 10:05:23.7398|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 10:05:23.7398|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 10:05:23.7608|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 10:05:23.7748|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-24 10:05:23.7838|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 10:05:23.7838|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-24 10:05:23.8028|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-24 10:05:23.8118|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-24 10:05:23.8118|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-24 10:05:23.8298|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 10:05:23.8298|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 10:05:23.8488|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 10:05:23.8578|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-24 10:05:23.8578|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 10:05:23.8758|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-24 10:05:23.8758|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-24 11:32:06.0299|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:32:06.0299|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:32:06.0489|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.ArgumentException>
+2020-03-24 11:32:06.0489|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Empty string is not a valid value for parameter 'format'.>
+2020-03-24 11:32:06.0699|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at System.Windows.DataObjectPastingEventArgs..ctor(IDataObject dataObject, Boolean isDragDrop, String formatToApply)>
+2020-03-24 11:32:06.0799|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <PresentationCore>
+2020-03-24 11:32:06.0799|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void .ctor(System.Windows.IDataObject, Boolean, System.String)>
+2020-03-24 11:32:06.0979|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147024809>
+2020-03-24 11:32:06.0979|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:32:52.7534|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:32:52.7534|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:32:52.7724|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.ArgumentException>
+2020-03-24 11:32:52.7814|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Empty string is not a valid value for parameter 'format'.>
+2020-03-24 11:32:52.7814|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at System.Windows.DataObjectPastingEventArgs..ctor(IDataObject dataObject, Boolean isDragDrop, String formatToApply)>
+2020-03-24 11:32:52.7994|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <PresentationCore>
+2020-03-24 11:32:52.7994|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void .ctor(System.Windows.IDataObject, Boolean, System.String)>
+2020-03-24 11:32:52.8174|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147024809>
+2020-03-24 11:32:52.8274|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:35:14.6245|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:35:14.6245|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:35:14.6445|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.ArgumentException>
+2020-03-24 11:35:14.6445|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Empty string is not a valid value for parameter 'format'.>
+2020-03-24 11:35:14.6625|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at System.Windows.DataObjectPastingEventArgs..ctor(IDataObject dataObject, Boolean isDragDrop, String formatToApply)>
+2020-03-24 11:35:14.6715|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <PresentationCore>
+2020-03-24 11:35:14.6715|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void .ctor(System.Windows.IDataObject, Boolean, System.String)>
+2020-03-24 11:35:14.6895|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147024809>
+2020-03-24 11:35:14.6895|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:39:30.1911|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:39:30.2081|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:39:30.2201|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:39:30.2201|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:39:30.2391|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:39:30.2491|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-24 11:39:30.2491|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:39:30.2691|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-24 11:39:30.2691|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:39:30.2931|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:39:30.3121|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:39:30.3121|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:39:30.3361|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:39:30.3471|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:39:30.3471|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-24 11:39:30.3701|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:39:30.3921|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-24 11:39:30.4061|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:39:30.4061|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-24 11:39:30.4281|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-24 11:39:30.4391|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:39:30.4391|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:39:30.4601|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:39:30.4711|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-24 11:39:30.4711|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:39:30.4921|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-24 11:39:30.5011|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-24 11:39:30.5011|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-24 11:39:30.5351|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-24 11:39:30.5461|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:39:30.5461|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:39:30.5661|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:39:30.5661|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-24 11:39:30.5861|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:39:30.5961|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-24 11:39:30.5961|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-24 11:40:59.0565|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:40:59.0785|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:40:59.0785|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:40:59.1005|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:40:59.1105|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:40:59.1105|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-24 11:40:59.1325|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:40:59.1585|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-24 11:40:59.1715|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:40:59.1875|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-24 11:40:59.1875|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-24 11:40:59.2125|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:40:59.2245|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:40:59.2365|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:40:59.2495|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-24 11:40:59.2665|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:40:59.2665|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-24 11:40:59.2915|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-24 11:41:00.5955|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:41:00.6135|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:41:00.6245|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:41:00.6245|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:41:00.6455|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:41:00.6555|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-24 11:41:00.6555|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:41:00.6765|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-24 11:41:00.6865|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:41:00.6865|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-24 11:41:00.7075|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-24 11:41:00.7185|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:41:00.7185|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:41:00.7395|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:41:00.7505|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-24 11:41:00.7505|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:41:00.7715|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-24 11:41:00.7815|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-24 11:41:02.5925|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:41:02.6135|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:41:02.6245|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:41:02.6245|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:41:02.6465|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:41:02.6565|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-24 11:41:02.6565|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:41:02.6785|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-24 11:41:02.6975|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:41:02.7165|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-24 11:41:02.7265|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-24 11:41:02.7375|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:41:02.7485|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:41:02.7485|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:41:02.7705|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-24 11:41:02.7815|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:41:02.7815|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-24 11:41:02.8035|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-24 11:42:59.6184|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:42:59.6334|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:42:59.6454|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:42:59.6574|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:42:59.6574|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:42:59.6794|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-24 11:42:59.6904|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:42:59.7014|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-24 11:42:59.7014|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:42:59.7234|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-24 11:42:59.7354|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-24 11:42:59.7604|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:42:59.7724|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:42:59.7834|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:42:59.7834|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-24 11:42:59.8074|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:42:59.8314|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-24 11:42:59.8424|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-24 11:43:30.8318|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:43:30.8468|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:43:30.8588|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:43:30.8588|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:43:30.8808|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:43:30.8918|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-24 11:43:30.8918|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:43:30.9148|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-24 11:43:30.9258|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:43:30.9368|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-24 11:43:30.9368|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-24 11:43:30.9588|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:43:30.9808|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:43:30.9948|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:43:31.0068|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-24 11:43:31.0188|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:43:31.0298|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-24 11:43:31.0298|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-24 11:51:10.5994|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:10.6134|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:51:10.6254|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:51:10.6254|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:51:10.6484|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:51:10.6594|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-24 11:51:10.6714|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:51:10.6874|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-24 11:51:10.7014|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:51:10.7014|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:10.7244|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:51:10.7364|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:51:10.7484|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:51:10.7484|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:51:10.7714|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-24 11:51:10.7964|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:51:10.7964|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-24 11:51:10.8204|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:51:10.8314|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:10.8424|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:51:10.8424|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:51:10.8654|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:51:10.8764|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:51:10.8764|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-24 11:51:10.8994|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:51:10.9114|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-24 11:51:10.9224|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:51:10.9224|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:10.9474|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-24 11:51:10.9584|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:51:10.9704|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:51:10.9954|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:51:11.0074|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-24 11:51:11.0195|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:51:11.0314|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-24 11:51:11.0314|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-24 11:51:11.0544|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:11.0664|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-24 11:51:11.0794|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:51:11.0794|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:51:11.1034|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:51:11.1144|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-24 11:51:11.1264|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:51:11.1434|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-24 11:51:11.1664|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-24 11:51:11.1784|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:11.1914|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-24 11:51:11.2104|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:51:11.2244|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:51:11.2384|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:51:11.2644|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-24 11:51:11.2644|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:51:11.2894|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-24 11:51:11.3015|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-24 11:51:15.6704|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:15.6704|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:51:15.6944|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.IndexOutOfRangeException>
+2020-03-24 11:51:15.7064|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Index was outside the bounds of the array.>
+2020-03-24 11:51:15.7414|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.Plugin.Query.SplitSearch(Int32 index) in C:\Workbench\Git\Wox\Wox.Plugin\Query.cs:line 75>
+2020-03-24 11:51:15.7534|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin>
+2020-03-24 11:51:15.7655|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.String SplitSearch(Int32)>
+2020-03-24 11:51:15.7655|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2146233080>
+2020-03-24 11:51:15.7894|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:51:15.8064|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:15.8184|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:51:15.8304|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.IndexOutOfRangeException>
+2020-03-24 11:51:15.8424|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Index was outside the bounds of the array.>
+2020-03-24 11:51:15.8424|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.Plugin.Query.SplitSearch(Int32 index) in C:\Workbench\Git\Wox\Wox.Plugin\Query.cs:line 75>
+2020-03-24 11:51:15.8674|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin>
+2020-03-24 11:51:15.8794|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.String SplitSearch(Int32)>
+2020-03-24 11:51:15.8914|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2146233080>
+2020-03-24 11:51:15.8914|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:51:16.4804|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:16.4934|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:51:16.5054|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.IndexOutOfRangeException>
+2020-03-24 11:51:16.5164|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Index was outside the bounds of the array.>
+2020-03-24 11:51:16.5294|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.Plugin.Query.SplitSearch(Int32 index) in C:\Workbench\Git\Wox\Wox.Plugin\Query.cs:line 75>
+2020-03-24 11:51:16.5294|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin>
+2020-03-24 11:51:16.5544|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.String SplitSearch(Int32)>
+2020-03-24 11:51:16.5664|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2146233080>
+2020-03-24 11:51:16.5784|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:51:17.4014|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:17.4144|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:51:17.4264|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.IndexOutOfRangeException>
+2020-03-24 11:51:17.4384|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Index was outside the bounds of the array.>
+2020-03-24 11:51:17.4514|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.Plugin.Query.SplitSearch(Int32 index) in C:\Workbench\Git\Wox\Wox.Plugin\Query.cs:line 75>
+2020-03-24 11:51:17.4514|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin>
+2020-03-24 11:51:17.4755|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.String SplitSearch(Int32)>
+2020-03-24 11:51:17.4874|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2146233080>
+2020-03-24 11:51:17.5004|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:51:17.5244|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:17.5374|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:51:17.5494|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.IndexOutOfRangeException>
+2020-03-24 11:51:17.5614|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Index was outside the bounds of the array.>
+2020-03-24 11:51:17.5614|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.Plugin.Query.SplitSearch(Int32 index) in C:\Workbench\Git\Wox\Wox.Plugin\Query.cs:line 75>
+2020-03-24 11:51:17.5864|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin>
+2020-03-24 11:51:17.5985|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.String SplitSearch(Int32)>
+2020-03-24 11:51:17.6114|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2146233080>
+2020-03-24 11:51:17.6235|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:51:31.7185|INFO|App.OnStartup|Begin Wox startup ----------------------------------------------------
+2020-03-24 11:51:31.7495|INFO|App.OnStartup|Runtime info:
+Wox version: 1.2.0
+OS Version: Microsoft Windows NT 10.0.18363.0
+IntPtr Length: 8
+x64: True
+2020-03-24 11:51:32.9365|INFO|Wox.Infrastructure.Alphabet.Initialize|Preload pinyin cache <1122ms>
+2020-03-24 11:51:32.9515|INFO|Wox.Infrastructure.Alphabet.Initialize|Number of preload pinyin combination<0>
+2020-03-24 11:51:33.0235|INFO|ImageLoader.Initialize|Preload images cost <1228ms>
+2020-03-24 11:51:33.0365|INFO|ImageLoader.Initialize|Number of preload images is <144>
+2020-03-24 11:51:33.2705|ERROR|PluginConfig.GetPluginMetadata|Didn't find config file <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Chocolatey-9aa1413a-ba5f-480f-9728-ed5b7b6c3286\plugin.json>
+2020-03-24 11:51:33.5565|INFO|Wox.Plugin.Program.Main|Preload programs cost <3ms>
+2020-03-24 11:51:33.5695|INFO|Wox.Plugin.Program.Main|Number of preload win32 programs <311>
+2020-03-24 11:51:33.5815|INFO|Wox.Plugin.Program.Main|Number of preload uwps <18>
+2020-03-24 11:51:33.7355|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:33.7565|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:51:33.7805|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 11:51:33.8055|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-24 11:51:33.8395|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-24 11:51:33.8605|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Program>
+2020-03-24 11:51:33.8895|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-24 11:51:33.9095|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-24 11:51:33.9325|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:51:33.9585|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:33.9785|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:51:34.0005|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 11:51:34.0345|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-24 11:51:34.0545|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-24 11:51:34.0705|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Program>
+2020-03-24 11:51:34.0895|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-24 11:51:34.1055|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-24 11:51:34.1235|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:51:34.1435|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:34.1575|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\System Configuration.lnk> with HResult <-2147467259>
+2020-03-24 11:51:34.1715|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 11:51:34.1715|ERROR|Win32.LnkProgram|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-24 11:51:34.1985|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-24 11:51:34.2155|ERROR|Win32.LnkProgram|Exception source:
+ <Wox.Plugin.Program>
+2020-03-24 11:51:34.2315|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-24 11:51:34.2460|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-24 11:51:34.2600|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-24 11:51:34.2800|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:34.2990|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player.lnk> with HResult <-2147467259>
+2020-03-24 11:51:34.3180|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 11:51:34.3390|ERROR|Win32.LnkProgram|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-24 11:51:34.3630|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-24 11:51:34.3630|ERROR|UWP.LogoPathFromUri| <Microsoft.WindowsCalculator_8wekyb3d8bbwe!App> can't find logo uri for <Assets\CalculatorAppList.png>, Package location <C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.1904.31.0_x64__8wekyb3d8bbwe>.
+2020-03-24 11:51:34.3850|ERROR|Win32.LnkProgram|Exception source:
+ <Wox.Plugin.Program>
+2020-03-24 11:51:34.4200|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-24 11:51:34.4370|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-24 11:51:34.4520|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-24 11:51:34.4520|ERROR|UWP.LogoPathFromUri| <Microsoft.ScreenSketch_8wekyb3d8bbwe!App> can't find logo uri for <Assets\ScreenSketchSquare44x44Logo.png>, Package location <C:\Program Files\WindowsApps\Microsoft.ScreenSketch_10.1901.10521.0_x64__8wekyb3d8bbwe>.
+2020-03-24 11:51:34.4680|ERROR|UWP.ResourceFromPri|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:34.4990|ERROR|UWP.ResourceFromPri|Load pri failed <@{Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe? ms-resource:///resources/LensSDK/Resources/AppTitle}> with HResult <2147957527> and location <C:\Program Files\WindowsApps\Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe>.
+2020-03-24 11:51:34.4990|ERROR|UWP.ResourceFromPri|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 11:51:34.5270|ERROR|UWP.ResourceFromPri|Exception message:
+ <Unspecified error
+
+'Microsoft Corporation' violates pattern constraint of '\bms-resource:.{1,256}'.
+>
+2020-03-24 11:51:34.5420|ERROR|UWP.ResourceFromPri|Exception stack trace:
+ <>
+2020-03-24 11:51:34.5570|ERROR|UWP.ResourceFromPri|Exception source:
+ <>
+2020-03-24 11:51:34.5710|ERROR|UWP.ResourceFromPri|Exception target site:
+ <>
+2020-03-24 11:51:34.5850|ERROR|UWP.ResourceFromPri|Exception HResult:
+ <-2147009769>
+2020-03-24 11:51:34.6010|ERROR|UWP.ResourceFromPri|-------------------------- End exception --------------------------
+2020-03-24 11:51:34.6160|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:34.6300|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:51:34.6450|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 11:51:34.6580|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-24 11:51:34.6720|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-24 11:51:34.6870|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Program>
+2020-03-24 11:51:34.6870|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-24 11:51:34.7150|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2020-03-24 11:51:34.7300|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:51:34.7440|ERROR|UWP.ResourceFromPri|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:34.7590|ERROR|UWP.ResourceFromPri|Load pri failed <@{Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe? ms-resource:///resources/LensSDK/Resources/AppTitle}> with HResult <2147957527> and location <C:\Program Files\WindowsApps\Microsoft.WindowsCamera_2019.425.30.0_x64__8wekyb3d8bbwe>.
+2020-03-24 11:51:34.7730|ERROR|UWP.ResourceFromPri|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 11:51:34.7730|ERROR|UWP.LogoPathFromUri| <Microsoft.Windows.SecHealthUI_cw5n1h2txyewy!SecHealthUI> can't find logo uri for <Assets\Square44x44Logo.png>, Package location <C:\Windows\SystemApps\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy>.
+2020-03-24 11:51:34.7870|ERROR|UWP.ResourceFromPri|Exception message:
+ <NamedResource Not Found. (Exception from HRESULT: 0x80073B17)>
+2020-03-24 11:51:34.8180|ERROR|UWP.ResourceFromPri|Exception stack trace:
+ <>
+2020-03-24 11:51:34.8310|ERROR|UWP.ResourceFromPri|Exception source:
+ <>
+2020-03-24 11:51:34.8450|ERROR|UWP.ResourceFromPri|Exception target site:
+ <>
+2020-03-24 11:51:34.8600|ERROR|UWP.ResourceFromPri|Exception HResult:
+ <-2147009769>
+2020-03-24 11:51:34.8780|ERROR|UWP.ResourceFromPri|-------------------------- End exception --------------------------
+2020-03-24 11:51:34.8930|ERROR|Win32.LnkProgram|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:34.9070|ERROR|Win32.LnkProgram|COMException when parsing shortcut <C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk> with HResult <-2147467259>
+2020-03-24 11:51:34.9210|ERROR|Win32.LnkProgram|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2020-03-24 11:51:34.9210|ERROR|Win32.LnkProgram|Exception message:
+ <Error HRESULT E_FAIL has been returned from a call to a COM component.>
+2020-03-24 11:51:34.9510|ERROR|Win32.LnkProgram|Exception stack trace:
+ <   at Shell.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cch)
+   at Wox.Plugin.Program.Programs.Win32.LnkProgram(String path) in C:\Workbench\Git\Wox\Plugins\Wox.Plugin.Program\Programs\Win32.cs:line 162>
+2020-03-24 11:51:34.9650|ERROR|Win32.LnkProgram|Exception source:
+ <Wox.Plugin.Program>
+2020-03-24 11:51:34.9790|ERROR|Win32.LnkProgram|Exception target site:
+ <Void GetDescription(System.Text.StringBuilder, Int32)>
+2020-03-24 11:51:34.9930|ERROR|Win32.LnkProgram|Exception HResult:
+ <-2147467259>
+2020-03-24 11:51:35.0090|ERROR|Win32.LnkProgram|-------------------------- End exception --------------------------
+2020-03-24 11:51:35.4240|INFO|Wox.Plugin.Program.Main|Program index cost <1828ms>
+2020-03-24 11:51:35.6270|INFO|PluginManager.InitializePlugins|Total init cost for <Hello World CSharp> is <15ms>
+2020-03-24 11:51:35.6270|INFO|PluginManager.InitializePlugins|Total init cost for <Simple Web Search> is <24ms>
+2020-03-24 11:51:35.6270|INFO|PluginManager.InitializePlugins|Total init cost for <Shell> is <43ms>
+2020-03-24 11:51:35.6270|INFO|PluginManager.InitializePlugins|Total init cost for <URL> is <23ms>
+2020-03-24 11:51:35.6270|INFO|PluginManager.InitializePlugins|Total init cost for <Wox Plugin Management> is <18ms>
+2020-03-24 11:51:35.6270|INFO|PluginManager.InitializePlugins|Total init cost for <Calculator> is <47ms>
+2020-03-24 11:51:35.6270|INFO|PluginManager.InitializePlugins|Total init cost for <Emoji> is <3ms>
+2020-03-24 11:51:35.6270|INFO|PluginManager.InitializePlugins|Total init cost for <Folder> is <23ms>
+2020-03-24 11:51:35.6270|INFO|PluginManager.InitializePlugins|Total init cost for <Wox.SpotifyPremium> is <89ms>
+2020-03-24 11:51:35.6270|INFO|PluginManager.InitializePlugins|Total init cost for <Hello World Python> is <0ms>
+2020-03-24 11:51:35.6800|INFO|PluginManager.InitializePlugins|Total init cost for <System Commands> is <21ms>
+2020-03-24 11:51:35.6980|INFO|PluginManager.InitializePlugins|Total init cost for <Web Searches> is <57ms>
+2020-03-24 11:51:35.7080|INFO|PluginManager.InitializePlugins|Total init cost for <Stack Overflow> is <79ms>
+2020-03-24 11:51:35.7080|INFO|PluginManager.InitializePlugins|Total init cost for <Program> is <77ms>
+2020-03-24 11:51:35.7250|INFO|PluginManager.InitializePlugins|Total init cost for <Control Panel> is <117ms>
+2020-03-24 11:51:35.7250|INFO|PluginManager.InitializePlugins|Total init cost for <Colors> is <15ms>
+2020-03-24 11:51:35.7390|INFO|PluginManager.InitializePlugins|Total init cost for <Giphy> is <26ms>
+2020-03-24 11:51:35.7530|INFO|PluginManager.InitializePlugins|Total init cost for <Plugin Indicator> is <15ms>
+2020-03-24 11:51:35.7830|INFO|PluginManager.InitializePlugins|Total init cost for <Hosts> is <0ms>
+2020-03-24 11:51:35.7830|INFO|PluginManager.InitializePlugins|Total init cost for <YouTubeQuery> is <43ms>
+2020-03-24 11:51:35.8120|INFO|PluginManager.InitializePlugins|Total init cost for <Weather.Open> is <33ms>
+2020-03-24 11:51:35.8480|INFO|PluginManager.InitializePlugins|Total init cost for <Everything> is <40ms>
+2020-03-24 11:51:36.4040|INFO|PluginManager.InitializePlugins|Total init cost for <Steam> is <808ms>
+2020-03-24 11:51:36.5650|INFO|PluginManager.InitializePlugins|Total init cost for <Dictionary> is <796ms>
+2020-03-24 11:51:36.9996|INFO|PluginManager.InitializePlugins|Total init cost for <Browser Bookmarks> is <1370ms>
+2020-03-24 11:51:36.9996|INFO|PluginManager.InitializePlugins|Total init cost for <Browser Bookmarks> is <1406ms>
+2020-03-24 11:51:37.0316|INFO|App.OnStartup|Dependencies Info:
+Python Path: pythonw.exe
+Everything SDK Path: C:\Portable\Wox\app-1.2.0\UserData\Settings\Plugins\Wox.Plugin.Everything\EverythingSDK\x64\Everything.dll
+2020-03-24 11:51:37.0666|INFO|App.OnStartup|End Wox startup ----------------------------------------------------  
+2020-03-24 11:51:37.0816|INFO|App.OnStartup|Startup cost <5493ms>
+2020-03-24 11:51:40.8086|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:40.8286|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:51:40.8956|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:51:40.9116|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:51:40.9416|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:51:40.9596|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-24 11:51:40.9746|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:51:40.9886|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-24 11:51:41.0036|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:51:41.0186|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-24 11:51:41.0336|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-24 11:51:41.0486|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:51:41.0626|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:51:41.0776|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:51:41.0926|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-24 11:51:41.1096|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:51:41.1356|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-24 11:51:41.1516|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-24 11:52:01.8177|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:52:01.8357|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:52:01.8537|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:52:01.8707|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:52:01.8917|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:52:01.9067|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-24 11:52:01.9227|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:52:01.9367|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-24 11:52:01.9527|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:52:01.9527|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-24 11:52:01.9817|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-24 11:52:01.9967|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:52:02.0117|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:52:02.0277|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:52:02.0467|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-24 11:52:02.0667|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:52:02.0827|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-24 11:52:02.0987|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-24 11:52:06.2518|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:52:06.2688|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:52:06.2848|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:52:06.2998|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:52:06.3158|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:52:06.3398|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-24 11:52:06.3548|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:52:06.3718|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-24 11:52:06.3908|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:52:06.4068|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-24 11:52:06.4228|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-24 11:52:06.4378|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:52:06.4528|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:52:06.4678|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:52:06.4828|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-24 11:52:06.4988|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:52:06.5138|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-24 11:52:06.5138|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-24 11:56:19.4655|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 11:56:19.4825|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 11:56:19.5015|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:56:19.5185|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:56:19.5365|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:56:19.5545|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-24 11:56:19.5825|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:56:19.5975|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-24 11:56:19.6135|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 11:56:19.6285|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-24 11:56:19.6445|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-24 11:56:19.6665|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 11:56:19.6865|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 11:56:19.7016|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 11:56:19.7016|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-24 11:56:19.7446|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 11:56:19.7596|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-24 11:56:19.7756|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-24 18:46:53.4875|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 18:46:53.5091|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 18:46:53.5307|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 18:46:53.5468|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 18:46:53.5634|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 18:46:53.5790|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-24 18:46:53.5941|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 18:46:53.6112|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-24 18:46:53.6323|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 18:46:53.6489|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2020-03-24 18:46:53.6655|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2020-03-24 18:46:53.6816|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 18:46:53.6982|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 18:46:53.7142|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 18:46:53.7303|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox>
+2020-03-24 18:46:53.7459|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 18:46:53.7615|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467261>
+2020-03-24 18:46:53.7776|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2020-03-24 18:46:53.7947|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-24 18:46:53.8173|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-24 18:46:53.8344|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 18:46:53.8510|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 18:46:53.8671|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 18:46:53.8832|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-24 18:46:53.9099|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 18:46:53.9275|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-24 18:46:53.9435|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
+2020-03-24 18:46:53.9601|ERROR|ResultViewModel.Image|-------------------------- Begin exception --------------------------
+2020-03-24 18:46:53.9767|ERROR|ResultViewModel.Image|IcoPath is empty and exception when calling Icon() for result <Steamworks Common Redistributables> of plugin <C:\Portable\Wox\app-1.2.0\UserData\Plugins\Steam-dd0c6adc-e189-4c00-9426-c12a35b97d87>
+2020-03-24 18:46:53.9918|ERROR|ResultViewModel.Image|Exception fulle name:
+ <System.NullReferenceException>
+2020-03-24 18:46:54.0079|ERROR|ResultViewModel.Image|Exception message:
+ <Object reference not set to an instance of an object.>
+2020-03-24 18:46:54.0235|ERROR|ResultViewModel.Image|Exception stack trace:
+ <   at Wox.ViewModel.ResultViewModel.get_Image() in C:\Workbench\Git\Wox\Wox\ViewModel\ResultViewModel.cs:line 25>
+2020-03-24 18:46:54.0391|ERROR|ResultViewModel.Image|Exception source:
+ <Wox>
+2020-03-24 18:46:54.0557|ERROR|ResultViewModel.Image|Exception target site:
+ <System.Windows.Media.ImageSource get_Image()>
+2020-03-24 18:46:54.0723|ERROR|ResultViewModel.Image|Exception HResult:
+ <-2147467261>
+2020-03-24 18:46:54.0884|ERROR|ResultViewModel.Image|-------------------------- End exception --------------------------
