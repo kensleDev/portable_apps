@@ -1,0 +1,3 @@
+[submodule "Windows-Extended-Keyboard"]
+	path = Windows-Extended-Keyboard
+	url = git@github.com:kensleDev/Windows-Extended-Keyboard.git
