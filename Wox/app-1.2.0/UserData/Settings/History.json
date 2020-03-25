@@ -39,6 +39,22 @@
     {
       "Query": "code",
       "ExecutedDateTime": "2020-03-24T11:43:31.4278723+00:00"
+    },
+    {
+      "Query": "emoji smile",
+      "ExecutedDateTime": "2020-03-24T11:51:49.8827239+00:00"
+    },
+    {
+      "Query": "emoj",
+      "ExecutedDateTime": "2020-03-24T11:52:08.2768446+00:00"
+    },
+    {
+      "Query": "code",
+      "ExecutedDateTime": "2020-03-24T11:56:20.5846434+00:00"
+    },
+    {
+      "Query": "ever",
+      "ExecutedDateTime": "2020-03-24T18:46:54.8749291+00:00"
     }
   ]
 }

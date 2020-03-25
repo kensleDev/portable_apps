@@ -14,7 +14,7 @@
   "WindowLeft": 759.15094339622647,
   "WindowTop": 314.5,
   "MaxResultsToShow": 6,
-  "ActivateTimes": 38,
+  "ActivateTimes": 63,
   "CustomPluginHotkeys": [],
   "Opacity": 1.0,
   "OpacityMode": 0,
@@ -246,6 +246,14 @@
         "Name": "YouTubeQuery",
         "ActionKeywords": [
           "yt"
+        ],
+        "Disabled": false
+      },
+      "FF2C31D6A47348FFB9ED4EB26F6794E1": {
+        "ID": "FF2C31D6A47348FFB9ED4EB26F6794E1",
+        "Name": "Emoji",
+        "ActionKeywords": [
+          "emoji"
         ],
         "Disabled": false
       }
