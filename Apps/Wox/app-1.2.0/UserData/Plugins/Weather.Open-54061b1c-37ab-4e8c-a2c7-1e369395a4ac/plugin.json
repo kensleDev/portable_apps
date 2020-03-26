@@ -1,0 +1,12 @@
+{
+    "ID":"5C0BFEC0DF7011E695980800200C9A55",
+    "ActionKeyword":"forecast",
+    "Name":"Weather.Open",
+    "Description":"Forecast for any city",
+    "Author":"Dragos Suteu",
+    "Version":"1.0.0",
+    "Language":"csharp",
+    "Website":" ",
+    "ExecuteFileName":"OpenWeatherMap.dll",
+    "IcoPath":"icon.png"
+}
